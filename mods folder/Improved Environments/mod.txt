@@ -1,4 +1,0 @@
-{
-  "name": "Improved Environments",
-  "blt_version" : 2
-}

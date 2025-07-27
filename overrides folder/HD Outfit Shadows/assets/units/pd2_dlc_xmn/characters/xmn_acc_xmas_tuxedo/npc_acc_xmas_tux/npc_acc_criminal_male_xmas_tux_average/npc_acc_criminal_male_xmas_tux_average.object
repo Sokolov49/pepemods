@@ -1,6 +1,0 @@
-<dynamic_object>
-	<diesel materials="units/pd2_dlc_xmn/characters/xmn_acc_xmas_tuxedo/shared_materials/npc_acc_xmas_tux_suit_default" orientation_object="root_point" />
-	<graphics>
-		<object shadow_caster="true" name="g_body" enabled="true" />
-	</graphics>
-</dynamic_object>

@@ -1,1 +1,0 @@
-improv._mod_path = improv:GetPath()

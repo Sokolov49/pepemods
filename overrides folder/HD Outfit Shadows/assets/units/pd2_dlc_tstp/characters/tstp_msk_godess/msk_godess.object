@@ -1,6 +1,0 @@
-<dynamic_object>
-	<diesel materials="units/pd2_dlc_tstp/characters/tstp_msk_godess/msk_godess" orientation_object="rp_msk_godess" />
-	<graphics>
-		<object shadow_caster="true" name="g_mask" enabled="true" />
-	</graphics>
-</dynamic_object>

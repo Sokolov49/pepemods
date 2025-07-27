@@ -1,9 +1,0 @@
-<state_machine name="player_machine" timebase="frames">
-
-	<segment name="base"/>
-	
-	<default state="std/empty"/>
-	
-	<states file="anims/units/player_husk/player_husk_std"/>
-	
-</state_machine>

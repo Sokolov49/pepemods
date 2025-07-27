@@ -1,6 +1,0 @@
-<gui>
-	<preload texture="guis/dlcs/gage_pack/textures/pd2/blackmarket/icons/masks/pitbull"/>
-	<preload texture="guis/dlcs/gage_pack/textures/pd2/blackmarket/icons/masks/eagle"/>
-	<preload texture="guis/dlcs/gage_pack/textures/pd2/blackmarket/icons/masks/goat"/>
-	<preload texture="guis/dlcs/gage_pack/textures/pd2/blackmarket/icons/masks/panda"/>
-</gui>

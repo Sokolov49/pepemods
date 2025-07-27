@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<mod name="b" global_key="b">
-	<:include src="assets.xml" />
-</mod>

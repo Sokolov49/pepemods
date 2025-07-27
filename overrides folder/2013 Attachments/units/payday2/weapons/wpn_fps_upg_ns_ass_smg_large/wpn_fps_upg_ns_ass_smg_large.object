@@ -1,6 +1,0 @@
-<dynamic_object>
-    <diesel materials="units/payday2/weapons/wpn_fps_upg_ns_ass_smg_large/wpn_fps_upg_ns_ass_smg_large" orientation_object="rp_silencer_large" />
-    <graphics>
-        <object name="g_silencer_large" enabled="true" />
-    </graphics>
-</dynamic_object>

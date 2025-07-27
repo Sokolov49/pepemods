@@ -1,6 +1,0 @@
-{
-  "Name": "PDTH Effects & Decals",
-  "Description": "Much better than the second game's effects.",
-  "Author": "",  
-  "blt_version" : 2
-}

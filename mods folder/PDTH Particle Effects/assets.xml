@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<assets base_path="assets/">
-	<file name="settings/decals.decals" force="true"/>
-	<file name="effects/decals/decals_atlas_df.texture" force="true"/>
-	<file name="effects/decals/decals_atlas_nm.texture" force="true"/>
-</assets>
