@@ -1,1 +1,1 @@
-# pepemods
+# makes concussion grenades blind you as well as make flashbang sounds

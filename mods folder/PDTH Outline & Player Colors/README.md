@@ -1,1 +1,1 @@
-# pepemods
+# changes player outline color to green-ish like in pdth, chat colors are preserved. best used with pdth outlines

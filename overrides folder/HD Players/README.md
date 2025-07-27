@@ -1,1 +1,1 @@
-# pepemods
+# all this does is it makes player models, player armor and player bags to cast shadows instead of only the LOD model casting a shadow, useful when you or your teammates dont use any outfits (or if you use a mod to hide them) but can cause floating head shadow syndrome when using outfits without hd outfits

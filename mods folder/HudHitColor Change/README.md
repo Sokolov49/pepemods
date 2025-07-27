@@ -1,1 +1,1 @@
-# pepemods
+# changes hud hit color(s) to red
