@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_pal/equipment/pal_int_insert_paper_roll/pal_int_insert_paper_roll" orientation_object="rp_pal_int_insert_paper_roll" />
+	<sequence_manager file="units/pd2_dlc_pal/equipment/pal_int_insert_paper_roll/pal_int_insert_paper_roll" />
+	<bodies>
+		<body name="c_paper" enabled="true" template="editor">
+			<object name="c_box" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_paper_roll" enabled="true" />
+	</graphics>
+</dynamic_object>

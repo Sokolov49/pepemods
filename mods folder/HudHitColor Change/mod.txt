@@ -1,0 +1,11 @@
+{
+	"name" : "Hud Hit Recolor",
+	"description" : "Hoppip's custom HUD",
+	"author" : "Hoppip",
+	"vr_disabled" : true,
+	"color" : "0.043 0.808 0.6",
+	"version" : "1.7.5",
+	"hooks" : [
+		{ "hook_id" : "lib/managers/hud/hudhitdirection", "script_path" : "hudhitdirection.lua" }
+	]
+}

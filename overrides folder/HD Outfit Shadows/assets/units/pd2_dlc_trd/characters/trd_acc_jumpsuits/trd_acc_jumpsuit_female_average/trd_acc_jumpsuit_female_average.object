@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_trd/characters/trd_acc_jumpsuits/trd_acc_jumpsuit_female_average/trd_acc_jumpsuit_female_average" orientation_object="root_point" />
+	<graphics>
+		<object shadow_caster="true" name="g_body" enabled="true" />
+	</graphics>
+</dynamic_object>

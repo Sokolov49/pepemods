@@ -1,0 +1,10 @@
+{
+    "name" : "PDTH Outline Colors",
+    "description" : "Changes human player peer and contour colors to the ones PD:TH used for chat name colors.",
+    "author" : "Whurr",
+    "priority" : 1,
+    "blt_version" : 2,
+	"hooks" : [
+		{"hook_id" : "lib/tweak_data/tweakdata", "script_path" : "tweakdata.lua"}
+	]
+}

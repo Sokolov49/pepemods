@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_tstp/characters/tstp_msk_daemon/msk_daemon" orientation_object="rp_msk_daemon" />
+	<graphics>
+		<object shadow_caster="true" name="g_mask" enabled="true" />
+	</graphics>
+</dynamic_object>

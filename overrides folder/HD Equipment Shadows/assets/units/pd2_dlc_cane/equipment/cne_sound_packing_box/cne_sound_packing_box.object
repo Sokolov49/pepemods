@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_cane/equipment/cne_sound_packing_box/cne_sound_packing_box" orientation_object="rp_invisible_interaction_evidence" />
+	<sequence_manager file="units/pd2_dlc_cane/equipment/cne_sound_packing_box/cne_sound_packing_box" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_invisible_interaction_evidence" />
+			<object name="g_evidence_locator" collision_type="box" template="editor" collides_with_mover="false" remove_ray_type="bullet"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_evidence_locator" enabled="true"  />
+	</graphics>
+</dynamic_object>

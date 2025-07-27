@@ -1,0 +1,14 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/equipment/mus_interactable_grate_small/mus_interactable_grate_small" orientation_object="rp_spawn_grate_small_debris" />
+	<bodies>
+		<body name="body_dyn" enabled="true" template="small_prop" mass="5">
+			<object name="rp_spawn_grate_small_debris" />
+			<object name="c_convex_top" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_mid" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_bottom" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

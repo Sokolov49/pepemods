@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel orientation_object="rp_chl_interactable_paint_bucket" materials="units/pd2_dlc_chill/equipment/chl_interactable_paint_bucket/chl_interactable_paint_bucket" />
+    <sequence_manager file="units/pd2_dlc_chill/equipment/chl_interactable_paint_bucket/chl_interactable_paint_bucket" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_chl_interactable_paint_bucket" />
+            <object collision_type="box" name="c_box_01" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces default_material="plastic">
+        <decal_mesh enabled="true" name="g_g" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <lod_object name="g_lod">
+            <object name="g_outline_lod0" enabled="true"  max_distance="500" />
+            <object name="g_outline_lod1" enabled="true" />
+        </lod_object>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

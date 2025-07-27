@@ -1,0 +1,100 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_glace/equipment/glc_interactable_ejectionseat/glc_interactable_ejectionseat" orientation_object="rp_glc_interactable_ejectionseat" />
+	<sequence_manager file="units/pd2_dlc_glace/equipment/glc_interactable_ejectionseat/glc_interactable_ejectionseat" />
+	<animations>
+		<animation_group name="anim_ballon" enabled="false">
+			<object name="jt_wire_base" 			/>
+			<object name="jt_wire_01" 				/>
+			<object name="jt_wire_02" 				/>
+			<object name="jt_wire_03" 				/>
+			<object name="jt_wire_04" 				/>
+			<object name="jt_wire_05" 				/>
+			<object name="jt_wire_END" 				/>
+			<object name="jt_balloon_Top" 			/>
+			<object name="jt_balloon_side_01" 		/>
+			<object name="jt_balloon_side_02" 		/>
+			<object name="jt_balloon_side_03" 		/>
+			<object name="jt_balloon_side_Bottom" 	/>
+		</animation_group>
+		<animation_group name="anim_straps" enabled="false">
+			<object name="ejs_root" 			/>
+			<object name="ejs_strap_02_jt_01"/>
+			<object name="ejs_strap_02_jt_02"/>
+			<object name="ejs_strap_02_jt_03"/>
+			<object name="ejs_strap_02_jt_04"/>
+			<object name="ejs_strap_02_jt_05"/>
+			<object name="ejs_strap_02_jt_06"/>
+			<object name="ejs_strap_02_jt_07"/>
+			<object name="ejs_strap_02_jt_08"/>
+			<object name="ejs_strap_02_jt_09"/>
+			<object name="ejs_strap_02_jt_10"/>
+			<object name="ejs_strap_02_jt_11"/>
+			<object name="ejs_strap_02_jt_12"/>
+			<object name="ejs_strap_02_jt_13"/>
+			<object name="ejs_strap_02_jt_14"/>
+			<object name="ejs_strap_02_jt_15"/>
+
+			<object name="ejs_strap_03_jt_01"/>
+			<object name="ejs_strap_03_jt_02"/>
+			<object name="ejs_strap_03_jt_03"/>
+			<object name="ejs_strap_03_jt_04"/>
+			<object name="ejs_strap_03_jt_05"/>
+			<object name="ejs_strap_03_jt_06"/>
+			<object name="ejs_strap_03_jt_07"/>
+			<object name="ejs_strap_03_jt_08"/>
+			<object name="ejs_strap_03_jt_09"/>
+			<object name="ejs_strap_03_jt_10"/>
+			<object name="ejs_strap_03_jt_11"/>
+			<object name="ejs_strap_03_jt_12"/>
+			<object name="ejs_strap_03_jt_13"/>
+			<object name="ejs_strap_03_jt_14"/>
+			<object name="ejs_strap_03_jt_15"/>
+
+			<object name="ejs_strap_01_jt_01"/>
+			<object name="ejs_strap_01_jt_02"/>
+			<object name="ejs_strap_01_jt_03"/>
+			<object name="ejs_strap_01_jt_04"/>
+
+		</animation_group>
+		<animation_group name="anim_lid" enabled="false">
+				<object name="a_lid" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="animated">
+			<object name="jt_wire_base" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="cloth_stuffed">
+		<decal_mesh name="dm_cloth_stuffed" enabled="true" material="cloth_stuffed" />
+		<decal_mesh name="dm_metal" 		enabled="true" material="metal" />
+		<decal_mesh name="dm_lid_metal" 	enabled="true" material="metal" />
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="ballon_group" enabled="false" culling_object="co_eject_seat_balloon">
+			<object name="g_balloon" 		enabled="true"/>
+			<object name="g_balloon_ring" 	enabled="true"/>
+		</graphic_group>
+		<graphic_group name="seat_group" enabled="true" culling_object="co_eject_seat">
+			<object name="g_lod0" 			enabled="true" />>
+			<object name="g_lid" 			enabled="true" />
+			<object name="g_box" 			enabled="true" />
+			<object name="g_box_outline" 	enabled="true" />
+			<object name="s_s" enabled="true" shadow_caster="true" />				
+		</graphic_group>
+			<object name="g_head" 		enabled="false"/>
+			<object name="g_body" 		enabled="false"/>
+	</graphics>
+</dynamic_object>

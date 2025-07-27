@@ -1,0 +1,52 @@
+<mod name="Improvements" global_key="improv" core_class="Core.lua">
+<Hooks directory="lua">
+	<hook source_file="core/lib/managers/coresequencemanager" file="env/CoreScriptData.lua"/>
+	<hook source_file="lib/tweak_data/levelstweakdata" file="env/levelstweakdata.lua"/>
+	<hook source_file="lib/units/props/timergui" file="timergui.lua"/>
+	<!--<hook source_file="core/lib/managers/coresoundenvironmentmanager" file="coresoundenvironmentmanager.lua"/>
+	<hook source_file="lib/tweak_data/soundtweakdata" file="soundtweakdata.lua"/>-->
+	<hook source_file="core/lib/managers/coreenvironmentcontrollermanager" file="coreenvironmentcontrollermanager.lua"/>
+	<hook source_file="core/lib/managers/coresoundenvironmentmanager" file="CoreSoundEnvironmentManagerNew.lua"/>
+	
+	<hook source_file="lib/managers/mission/missionscriptelement" file="env/flash.lua"/>
+	<hook source_file="lib/units/enemies/cop/copmovement" file="env/flash.lua"/>
+	<hook source_file="lib/units/weapons/npcraycastweaponbase" file="env/flash.lua"/>
+	
+	<hook file="env/LightLib.lua" source_file="lib/managers/menumanager"/>
+	<hook file="env/nmh.lua" source_file="lib/managers/playermanager"/>
+	<hook file="env/nmh.lua" source_file="lib/managers/mission/elementdisableunit"/>
+	<hook file="env/nmh.lua" source_file="lib/managers/mission/elementenableunit"/>
+	
+	<hook file="env/particles/alex_1_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/arm_fac_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/rat_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/wd1_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/wd1_night_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/wd2_day_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/wd2_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/pines_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/big_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/arena_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/sky_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/mia_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/club_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/mad_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/bridge_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/fire1_fx.lua" source_file="lib/managers/missionmanager"/>
+	<!-- this joke has worn off -->
+	<!-- <hook file="env/particles/jolly_fx.lua" source_file="lib/managers/missionmanager"/> -->
+	<hook file="env/particles/arm_und_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/pbr_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/fire3_fx.lua" source_file="lib/managers/missionmanager"/>
+	<!-- this one has wind that fucks everything up -->
+	<!-- <hook file="env/particles/bombforest_fx.lua" source_file="lib/managers/missionmanager"/> -->
+	<hook file="env/particles/branchbank_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/gobank_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/ukraine_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/hox1_fx.lua" source_file="lib/managers/missionmanager"/>
+	<hook file="env/particles/hox3_fx.lua" source_file="lib/managers/missionmanager"/>
+</Hooks>
+	<AddFiles directory="assets">
+		<environment path="units/pd2_dlc_nmh/environments/newer_darkness" script_data_type="custom_xml"/>
+	</AddFiles>
+</mod>

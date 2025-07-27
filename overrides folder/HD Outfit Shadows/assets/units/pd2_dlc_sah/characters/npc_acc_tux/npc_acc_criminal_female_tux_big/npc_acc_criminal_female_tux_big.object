@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_sah/characters/npc_acc_tux/npc_acc_criminal_female_tux_big/npc_acc_criminal_female_tux_big" orientation_object="root_point" />
+	<graphics>
+		<object shadow_caster="true" name="g_body" enabled="true" />
+	</graphics>
+</dynamic_object>

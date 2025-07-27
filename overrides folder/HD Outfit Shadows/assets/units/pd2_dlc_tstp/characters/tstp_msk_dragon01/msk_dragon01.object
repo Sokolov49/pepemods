@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_tstp/characters/tstp_msk_dragon01/msk_dragon01" orientation_object="rp_msk_dragon01" />
+	<graphics>
+		<object shadow_caster="true" name="g_mask" enabled="true" />
+	</graphics>
+</dynamic_object>

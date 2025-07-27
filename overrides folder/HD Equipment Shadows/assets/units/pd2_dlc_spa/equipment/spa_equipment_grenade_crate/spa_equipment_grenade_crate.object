@@ -1,0 +1,10 @@
+<dynamic_object>
+	<diesel materials="units/payday2/equipment/gen_equipment_grenade_crate/gen_equipment_explosives_case" orientation_object="rp_gen_equipment_explosives_case" />
+	<sequence_manager file="units/pd2_dlc_spa/equipment/spa_equipment_grenade_crate/spa_equipment_grenade_crate" />
+	<graphics>
+		<object name="g_grenade_01" enabled="true" />
+		<object name="g_grenade_02" enabled="true" />
+		<object name="g_grenade_03" enabled="true" />
+		<object name="g_outline" enabled="false"/>
+	</graphics>
+</dynamic_object>

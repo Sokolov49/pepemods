@@ -1,0 +1,18 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_bex/equipment/bex_smoke_grenade/bex_smoke_grenade" orientation_object="rp_bex_smoke_grenade" />
+  <sequence_manager file="units/pd2_dlc_bex/equipment/bex_smoke_grenade/bex_smoke_grenade" />
+  <bodies>
+    <body enabled="true" template="editor" name="static_body">
+      <object name="rp_bex_smoke_grenade" />
+      <object name="c_grenade" collision_type="box" />
+    </body>
+  </bodies>
+  <effects>
+    <effect_spawner name="smoke_bomb_effect" enabled="false" object="particle_locator" effect="effects/particles/explosions/smoke_grenade_signal_green" />
+  </effects>
+  <graphics>
+    <object name="g_grenade" enabled="false" />
+    <object name="g_grenade_outline" enabled="true" />
+    <object name="g_grenade_not_used" enabled="true" />
+  </graphics>
+</dynamic_object>

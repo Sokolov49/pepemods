@@ -1,0 +1,50 @@
+
+<state_machine name="fps" timebase="frames">
+	<segment name="base"/>
+	
+	<global name="beretta92" value="0"/>
+	<global name="c45" value="0"/>
+	<global name="raging_bull" value="0"/>
+	<global name="r870_shotgun" value="0"/>
+	<global name="mossberg" value="0"/>
+	<global name="m4" value="0"/>
+	<global name="mp5" value="0"/>
+	<global name="mac11" value="0"/>
+	<global name="m14" value="0"/>
+	<global name="hk21" value="0"/>
+	<global name="ak47" value="0"/>
+	<global name="m79" value="0"/>
+	<global name="glock" value="0"/>
+	
+	<global name="new_m4" value="0"/>
+	<global name="glock_18c" value="0"/>
+	<global name="amcar" value="0"/>
+	<global name="m16" value="0"/>
+	<global name="olympic" value="0"/>
+	<global name="ak74" value="0"/>
+	<global name="akm" value="0"/>
+	<global name="akmsu" value="0"/>
+	<global name="saiga" value="0"/>
+	<global name="ak5" value="0"/>
+	<global name="aug" value="0"/>
+	<global name="g36" value="0"/>
+	<global name="p90" value="0"/>
+	<global name="new_m14" value="0"/>
+	<global name="mp9" value="0"/>
+	<global name="deagle" value="0"/>
+	<global name="new_mp5" value="0"/>
+	<global name="colt_1911" value="0"/>
+	<global name="mac10" value="0"/>
+	<global name="r870" value="0"/>
+	<global name="glock_17" value="0"/>
+	<global name="huntsman" value="0"/>
+	<global name="b92fs" value="0"/>
+	<global name="new_raging_bull" value="0"/>
+	<global name="saw" value="0"/>
+	<global name="serbu" value="0"/>
+																				
+	<default state="fps/spawn"/>
+	
+	<states file="anims/fps/fps_spawn"/>
+	
+</state_machine>

@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_trd/characters/trd_acc_jumpsuits/trd_acc_jumpsuit_male_big/trd_acc_jumpsuit_male_big" orientation_object="root_point" />
+	<graphics>
+		<object shadow_caster="true" name="g_body" enabled="true" />
+	</graphics>
+</dynamic_object>

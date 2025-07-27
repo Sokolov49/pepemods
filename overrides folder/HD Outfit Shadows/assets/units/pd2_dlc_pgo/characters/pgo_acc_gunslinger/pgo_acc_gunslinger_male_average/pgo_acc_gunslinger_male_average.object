@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_pgo/characters/pgo_acc_gunslinger/shared_materials/pgo_acc_gunslinger_default"orientation_object="root_point"/>
+	<graphics>
+		<graphic_group culling_object="co_box" enabled="true" name="suit">
+			<object enabled="true" shadow_caster="true" name="g_body"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

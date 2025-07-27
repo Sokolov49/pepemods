@@ -1,0 +1,7 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_sus/characters/sus_acc_slaughterhouse/sus_acc_slaughterhouse_male_average_bodhi/sus_acc_slaughterhouse_male_average_bodhi" orientation_object="root_point" />
+	<graphics>
+		<object shadow_caster="true" name="g_body" enabled="true" />
+		<object shadow_caster="true" name="g_arms" enabled="true" />
+	</graphics>
+</dynamic_object>

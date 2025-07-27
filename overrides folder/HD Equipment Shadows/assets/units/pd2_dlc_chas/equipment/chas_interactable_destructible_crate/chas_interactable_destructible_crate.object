@@ -1,0 +1,84 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate" orientation_object="rp_chas_interactable_destructible_crate" />
+	<sequence_manager file="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate"/>
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chas_interactable_destructible_crate" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_lid" enabled="true" template="static">
+			<object name="rp_chas_interactable_destructible_crate" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+			<body name="body_lid_open" enabled="false" template="static">
+			<object name="rp_chas_interactable_destructible_crate" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_move_blocker" enabled="true" template="mover_blocker">
+			<object name="rp_chas_interactable_destructible_crate" />
+			<object name="c_box_move_blocker" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_1_0" enabled="false" />
+		<object name="g_1_1" enabled="false" />
+		<object name="g_1_2" enabled="false" />
+		<object name="g_1_3" enabled="false" />
+		<object name="g_1_4" enabled="false" />
+		<object name="g_1_5" enabled="false" />
+		<object name="g_1_6" enabled="false" />
+		<object name="g_1_7" enabled="false" />
+		<object name="g_1_8" enabled="false" />
+		<object name="g_1_9" enabled="false" />
+		<object name="g_2_0" enabled="false" />
+		<object name="g_2_1" enabled="false" />
+		<object name="g_2_2" enabled="false" />
+		<object name="g_2_3" enabled="false" />
+		<object name="g_2_4" enabled="false" />
+		<object name="g_2_5" enabled="false" />
+		<object name="g_2_6" enabled="false" />
+		<object name="g_2_7" enabled="false" />
+		<object name="g_2_8" enabled="false" />
+		<object name="g_2_9" enabled="false" />
+		<object name="g_top_1_0" enabled="false" />
+		<object name="g_top_1_1" enabled="false" />
+		<object name="g_top_1_2" enabled="false" />
+		<object name="g_top_1_3" enabled="false" />
+		<object name="g_top_1_4" enabled="false" />
+		<object name="g_top_1_5" enabled="false" />
+		<object name="g_top_1_6" enabled="false" />
+		<object name="g_top_1_7" enabled="false" />
+		<object name="g_top_1_8" enabled="false" />
+		<object name="g_top_1_9" enabled="false" />
+		<object name="g_top_2_0" enabled="false" />
+		<object name="g_top_2_1" enabled="false" />
+		<object name="g_top_2_2" enabled="false" />
+		<object name="g_top_2_3" enabled="false" />
+		<object name="g_top_2_4" enabled="false" />
+		<object name="g_top_2_5" enabled="false" />
+		<object name="g_top_2_6" enabled="false" />
+		<object name="g_top_2_7" enabled="false" />
+		<object name="g_top_2_8" enabled="false" />
+		<object name="g_top_2_9" enabled="false" />
+		<object name="g_static_numbers" enabled="true" />
+		<object name="g_top_static_numbers" enabled="false" />
+		<object name="g_hay" enabled="true" />
+		<graphic_group name="grp_box" enabled="true" >
+			<object name="g_box" enabled="true" />
+			<object name="g_top" enabled="true" />
+			<object name="g_top_open" enabled="false" />	
+			<object name="g_box_exploded" enabled="false" />
+			<object name="s_s" enabled="true" shadow_caster="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

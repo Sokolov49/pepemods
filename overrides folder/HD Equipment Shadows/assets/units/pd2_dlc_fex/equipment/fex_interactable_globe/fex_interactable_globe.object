@@ -1,0 +1,18 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fex/equipment/fex_interactable_globe/fex_interactable_globe" orientation_object="rp_fex_interactable_globe" />
+	<sequence_manager file="units/pd2_dlc_fex/equipment/fex_interactable_globe/fex_interactable_globe" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_fex_interactable_globe" />
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="grp_outline" enabled="true">
+			<lod_object name="lod_outline">
+				<object name="g_outline" enabled="true"  max_distance="500" />
+				<object name="g_outline_lod" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

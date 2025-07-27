@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_vit/equipment/vit_interactable_sec_safe/vit_interactable_sec_safe" orientation_object="rp_vit_interactable_button" />
+	<sequence_manager file="units/pd2_dlc_vit/equipment/vit_interactable_button/vit_interactable_button" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_vit_interactable_button" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<lod_object name="lod_button">
+			<object name="g_lod0" enabled="true"  max_distance="600" />
+			<object name="g_lod1" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

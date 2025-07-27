@@ -1,0 +1,40 @@
+<dynamic_object>
+    <diesel orientation_object="rp_des_interactable_hack_computer" materials="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_props" />
+	<sequence_manager file="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_des_interactable_hack_computer" />
+            <object collision_type="mesh_mopp" name="c_mesh_mopp" />
+        </body>
+        <body enabled="false" template="static" name="body0_breakable" >
+            <object name="rp_des_interactable_hack_computer" />
+            <object collision_type="mesh_mopp" name="c_mesh_mopp" />
+        </body>
+        <body enabled="false" template="dynamic" name="body0_dynamic" collides_with_mover="false">
+            <object collision_type="convex" name="c_mesh_mopp" />
+        </body>
+    </bodies>
+    <decal_surfaces default_material="plastic">
+        <decal_mesh name="dm_plastic_01" enabled="true" material="plastic" />
+        <decal_mesh name="dm_glass_01" enabled="true" material="glass_unbreakable" />
+    </decal_surfaces>
+    <effects>
+        <effect_spawner name="spark_01" enabled="false" object="e_effect_01" effect="effects/particles/dest/sparks_lamp_dest" />
+        <effect_spawner name="glass_01" enabled="false" object="e_effect_01" effect="effects/particles/dest/veil_tube"/>
+    </effects>
+    <graphics>
+        <object name="g_screen_01"      enabled="false"/>
+        <object name="g_screen_02"      enabled="false"/>
+        <object name="g_screen_03"      enabled="true"/>
+        <object name="g_screen_04"      enabled="false"/>
+        <object name="g_screen_05"      enabled="false"/>
+        <object name="g_screen_06"      enabled="false"/>
+        <object name="g_monitor_01"     enabled="true"/>
+        <object name="g_screen_done"     enabled="false"/>
+
+        <object name="g_screen_broken_01_var_1"     enabled="false"/>
+        <object name="g_screen_broken_01_var_2"     enabled="false"/>
+        <object name="g_screen_broken_01_var_3"     enabled="false"/>
+		<object name="g_screen_broken_01_var_4"     enabled="false"/>
+    </graphics>
+</dynamic_object>

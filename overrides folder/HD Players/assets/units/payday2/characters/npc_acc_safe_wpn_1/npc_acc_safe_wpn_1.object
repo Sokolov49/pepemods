@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/payday2/characters/npc_acc_safe_wpn_1/npc_acc_safe_wpn_1" orientation_object="rp_bag" />
+	<graphics>
+		<object name="g_bag" shadow_caster="true" enabled="true" />
+	</graphics>
+</dynamic_object>

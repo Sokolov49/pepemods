@@ -1,0 +1,14 @@
+{
+  	"name" : "Let me see your armor.",
+    "description" : "Adds visible armor to certain outfits that don't make the armor look like shit.",
+    "author" : "Sokolov"
+	"contact" : "haha lol no",
+	"version" : "2",
+	"blt_version" : 2
+	"color" : "255 255 255",
+	"hooks" : [
+
+   { "hook_id" : "lib/tweak_data/blackmarket/playerstyletweakdata", "script_path" : "playerstyletweakdata.lua" }
+
+]
+}

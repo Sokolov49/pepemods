@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_dinner/equipment/din_interactable_pliers/din_interactable_pliers" orientation_object="rp_din_interactable_pliers" />
+	<sequence_manager file="units/pd2_dlc_dinner/equipment/din_interactable_pliers/din_interactable_pliers" />
+
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="rp_din_interactable_pliers" />
+			<object name="g_icon" collision_type="box" />
+		</body>
+	</bodies>
+
+	<graphics>
+		<graphic_group name="icon_grp" enabled="true" culling_object="g_icon">
+			<lod_object name="icon_lod">
+					<object name="g_icon" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

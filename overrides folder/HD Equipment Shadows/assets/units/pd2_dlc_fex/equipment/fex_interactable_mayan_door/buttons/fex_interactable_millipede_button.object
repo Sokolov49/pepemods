@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons" orientation_object="rp_fex_interactable_millipede_button" />
+	<sequence_manager file="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons" />
+	<graphics>
+		<graphic_group name="grp_outline" enabled="true">
+			<lod_object name="lod_outline">
+				<object name="g_outline" enabled="true"  max_distance="500" />
+				<object name="g_outline_lod" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

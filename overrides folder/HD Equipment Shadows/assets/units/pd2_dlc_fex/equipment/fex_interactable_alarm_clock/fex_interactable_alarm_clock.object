@@ -1,0 +1,23 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fex/equipment/fex_interactable_alarm_clock/fex_interactable_alarm_clock" orientation_object="rp_fex_interactable_alarm_clock" />
+	<sequence_manager file="units/pd2_dlc_fex/equipment/fex_interactable_alarm_clock/fex_interactable_alarm_clock" />
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="rp_fex_interactable_alarm_clock" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_static" enabled="false" template="static">
+			<object name="rp_fex_interactable_alarm_clock" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_alarm_clock" enabled="false" />
+		<graphic_group name="grp_outline" enabled="true">
+			<lod_object name="lod_outline">
+				<object name="g_outline" enabled="true"  max_distance="500" />
+				<object name="g_outline_lod" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

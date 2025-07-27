@@ -1,0 +1,28 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_glace/equipment/glc_interactable_ejectionseat/glc_interactable_ejectionseat" orientation_object="rp_glc_interactable_ejectionseat_balloon" />
+	<sequence_manager file="units/pd2_dlc_glace/equipment/glc_interactable_ejectionseat/glc_interactable_ejectionseat_balloon" />
+	<animations>
+		<animation_group name="anim_balloon" enabled="false">
+			<object name="jt_wire_base" 			/>
+			<object name="jt_wire_01" 				/>
+			<object name="jt_wire_02" 				/>
+			<object name="jt_wire_03" 				/>
+			<object name="jt_wire_04" 				/>
+			<object name="jt_wire_05" 				/>
+			<object name="jt_wire_END" 				/>
+			<object name="jt_balloon_Top" 			/>
+			<object name="jt_balloon_side_01" 		/>
+			<object name="jt_balloon_side_02" 		/>
+			<object name="jt_balloon_side_03" 		/>
+			<object name="jt_balloon_side_Bottom" 	/>
+		</animation_group>
+	</animations>
+
+	<graphics>
+		<graphic_group name="balloon_group" enabled="false" culling_object="co_eject_seat_balloon">
+			<object name="g_balloon" 		enabled="true"/>
+			<object name="g_balloon_ring" 	enabled="true"/>
+		</graphic_group>
+	</graphics>
+	
+</dynamic_object>

@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_ess/characters/ess_acc_esportgamer/shared_materials/ess_acc_esport_default" orientation_object="root_point" />
+	<graphics>
+		<object shadow_caster="true" name="g_body" enabled="true" />
+	</graphics>
+</dynamic_object>

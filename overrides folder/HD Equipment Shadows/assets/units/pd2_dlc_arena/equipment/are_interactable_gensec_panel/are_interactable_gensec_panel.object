@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_arena/equipment/gen_interactable_door_keycard_v2/gen_interactable_door_keycard_v2" orientation_object="rp_are_interactable_gensec_panel" />
+	<sequence_manager file="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel" />
+	<bodies>
+		<body name="body_panel" enabled="true" template="editor">
+			<object name="rp_are_interactable_gensec_panel" />
+			<object name="g_panel" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_panel"				enabled="true" />
+		<object name="g_security_enabled"	enabled="false" />
+		<object name="g_security_disabled"	enabled="true" />
+		<object name="g_security_jammed"	enabled="false" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,59 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_sand/equipment/sand_interactable_notepad/sand_interactable_notepad" orientation_object="rp_sand_interactable_notepad" />
+	<sequence_manager file="units/pd2_dlc_sand/equipment/sand_interactable_notepad/sand_interactable_notepad" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sand_interactable_notepad" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_pad" enabled="false" />
+		<object name="g_4_9" enabled="false" />
+		<object name="g_4_8" enabled="false" />
+		<object name="g_4_7" enabled="false" />
+		<object name="g_4_6" enabled="false" />
+		<object name="g_4_5" enabled="false" />
+		<object name="g_4_4" enabled="false" />
+		<object name="g_4_3" enabled="false" />
+		<object name="g_4_2" enabled="false" />
+		<object name="g_4_1" enabled="false" />
+		<object name="g_4_0" enabled="false" />
+		<object name="g_3_9" enabled="false" />
+		<object name="g_3_8" enabled="false" />
+		<object name="g_3_7" enabled="false" />
+		<object name="g_3_6" enabled="false" />
+		<object name="g_3_5" enabled="false" />
+		<object name="g_3_4" enabled="false" />
+		<object name="g_3_3" enabled="false" />
+		<object name="g_3_2" enabled="false" />
+		<object name="g_3_1" enabled="false" />
+		<object name="g_3_0" enabled="false" />
+		<object name="g_2_9" enabled="false" />
+		<object name="g_2_8" enabled="false" />
+		<object name="g_2_7" enabled="false" />
+		<object name="g_2_6" enabled="false" />
+		<object name="g_2_5" enabled="false" />
+		<object name="g_2_4" enabled="false" />
+		<object name="g_2_3" enabled="false" />
+		<object name="g_2_2" enabled="false" />
+		<object name="g_2_1" enabled="false" />
+		<object name="g_2_0" enabled="false" />
+		<object name="g_1_9" enabled="false" />
+		<object name="g_1_8" enabled="false" />
+		<object name="g_1_7" enabled="false" />
+		<object name="g_1_6" enabled="false" />
+		<object name="g_1_5" enabled="false" />
+		<object name="g_1_4" enabled="false" />
+		<object name="g_1_3" enabled="false" />
+		<object name="g_1_2" enabled="false" />
+		<object name="g_1_1" enabled="false" />
+		<object name="g_1_0" enabled="false" />
+		<object name="g_has_the_keycard" enabled="false" />
+		<object name="g_notes" enabled="false" />
+		<object name="g_outline" enabled="true" />
+		<object name="g_warehouse_c" enabled="false" />
+		<object name="g_warehouse_b" enabled="false" />
+		<object name="g_warehouse_a" enabled="false" />
+	</graphics>
+</dynamic_object>

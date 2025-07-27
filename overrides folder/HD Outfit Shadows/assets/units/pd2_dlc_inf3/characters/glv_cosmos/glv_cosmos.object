@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_inf3/characters/glv_cosmos/glv_cosmos" orientation_object="root_point" />
+
+<graphics>
+	<graphic_group name="GraphicGroupName" enabled="true" culling_object="co_box">
+		<object shadow_caster="true" name="g_gloves" enabled="true" />
+	</graphic_group>
+</graphics>
+
+</dynamic_object>

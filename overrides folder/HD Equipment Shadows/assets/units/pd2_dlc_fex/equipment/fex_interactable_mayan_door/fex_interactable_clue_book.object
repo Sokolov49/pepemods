@@ -1,0 +1,53 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/fex_interactable_clue_book" orientation_object="rp_fex_interactable_clue_book" />
+	<sequence_manager file="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/fex_interactable_clue_book" />
+	<bodies>
+		<body name="body_static_closed" enabled="true" template="static">
+			<object name="rp_fex_interactable_clue_book" />
+			<object name="c_box_closed" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_static_open" enabled="false" template="static">
+			<object name="rp_fex_interactable_clue_book" />
+			<object name="c_box_open" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_book_closed" 		enabled="true" />
+		<object name="g_book_open" 		enabled="false" />
+		<object name="g_text_dog" 			enabled="false" />
+		<object name="g_text_bat" 			enabled="false" />
+		<object name="g_text_snake" 		enabled="false" />
+		<object name="g_text_turtle" 		enabled="false" />
+		<object name="g_text_bunny" 		enabled="false" />
+		<object name="g_text_jaguar" 		enabled="false" />
+		<object name="g_text_butterfly" 	enabled="false" />
+		<object name="g_text_snail" 		enabled="false" />
+		<object name="g_text_frog" 			enabled="false" />
+		<object name="g_text_spider" 		enabled="false" />
+		<object name="g_text_fish" 			enabled="false" />
+		<object name="g_text_lizard" 		enabled="false" />
+		<object name="g_text_boar" 			enabled="false" />
+		<object name="g_text_crab" 			enabled="false" />
+		<object name="g_text_crocodile" 	enabled="false" />
+		<object name="g_text_squirrel" 		enabled="false" />
+		<object name="g_text_owl" 			enabled="false" />
+		<object name="g_text_monkey" 		enabled="false" />
+		<object name="g_text_ant" 			enabled="false" />
+		<object name="g_text_millipede" 	enabled="false" />
+		<object name="g_text_fake_1" 		enabled="false" />
+		<object name="g_text_fake_2" 		enabled="false" />
+		<object name="g_text_fake_3" 		enabled="false" />
+		<object name="g_text_fake_4" 		enabled="false" />
+		<object name="g_text_fake_5" 		enabled="false" />
+		<object name="g_number_1" 			enabled="false" />
+		<object name="g_number_2" 			enabled="false" />
+		<object name="g_number_3" 			enabled="false" />
+		<object name="g_number_4" 			enabled="false" />
+		<graphic_group name="grp_outline" enabled="true">
+			<lod_object name="lod_outline">
+				<object name="g_outline" enabled="true"  max_distance="300" />
+				<object name="g_outline_lod" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

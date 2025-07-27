@@ -1,0 +1,127 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chas/equipment/chas_interactable_auction_door/chas_interactable_auction_door" orientation_object="rp_spawn_chas_auction_door_debris" />
+	<bodies>
+		<body name="body_collision_01" enabled="true" template="debris">
+			<object name="g_gib_1" />
+			<object name="c_gib_1" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_02" enabled="true" template="debris">
+			<object name="g_gib_10" />
+			<object name="c_gib_10" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_03" enabled="true" template="debris">
+			<object name="g_gib_11" />
+			<object name="c_gib_11" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_04" enabled="true" template="debris">
+			<object name="g_gib_12" />
+			<object name="c_gib_12" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_05" enabled="true" template="debris">
+			<object name="g_gib_13" />
+			<object name="c_gib_13" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_06" enabled="true" template="debris">
+			<object name="g_gib_14" />
+			<object name="c_gib_14" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_07" enabled="true" template="debris">
+			<object name="g_gib_15" />
+			<object name="c_gib_15" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_08" enabled="true" template="debris">
+			<object name="g_gib_16" />
+			<object name="c_gib_16" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_09" enabled="true" template="debris">
+			<object name="g_gib_17" />
+			<object name="c_gib_17" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_10" enabled="true" template="debris">
+			<object name="g_gib_18" />
+			<object name="c_gib_18" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_11" enabled="true" template="debris">
+			<object name="g_gib_19" />
+			<object name="c_gib_19" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_12" enabled="true" template="debris">
+			<object name="g_gib_2" />
+			<object name="c_gib_2" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_13" enabled="true" template="debris">
+			<object name="g_gib_20" />
+			<object name="c_gib_20" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_14" enabled="true" template="debris">
+			<object name="g_gib_21" />
+			<object name="c_gib_21" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_15" enabled="true" template="debris">
+			<object name="g_gib_22" />
+			<object name="c_gib_22" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_16" enabled="true" template="debris">
+			<object name="g_gib_3" />
+			<object name="c_gib_3" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_17" enabled="true" template="debris">
+			<object name="g_gib_4" />
+			<object name="c_gib_4" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_18" enabled="true" template="debris">
+			<object name="g_gib_5" />
+			<object name="c_gib_5" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_19" enabled="true" template="debris">
+			<object name="g_gib_6" />
+			<object name="c_gib_6" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_20" enabled="true" template="debris">
+			<object name="g_gib_7" />
+			<object name="c_gib_7" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_21" enabled="true" template="debris">
+			<object name="g_gib_8" />
+			<object name="c_gib_8" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_collision_22" enabled="true" template="debris">
+			<object name="g_gib_9" />
+			<object name="c_gib_9" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_metal_1" enabled="true" template="debris">
+			<object name="g_gib_metal_1" />
+			<object name="c_gib_metal_1" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_metal_2" enabled="true" template="debris">
+			<object name="g_gib_metal_2" />
+			<object name="c_gib_metal_2" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_gib_1" enabled="true" />
+		<object name="g_gib_2" enabled="true" />
+		<object name="g_gib_3" enabled="true" />
+		<object name="g_gib_4" enabled="true" />
+		<object name="g_gib_5" enabled="true" />
+		<object name="g_gib_6" enabled="true" />
+		<object name="g_gib_7" enabled="true" />
+		<object name="g_gib_8" enabled="true" />
+		<object name="g_gib_9" enabled="true" />
+		<object name="g_gib_10" enabled="true" />
+		<object name="g_gib_11" enabled="true" />
+		<object name="g_gib_12" enabled="true" />
+		<object name="g_gib_13" enabled="true" />
+		<object name="g_gib_14" enabled="true" />
+		<object name="g_gib_15" enabled="true" />
+		<object name="g_gib_16" enabled="true" />
+		<object name="g_gib_17" enabled="true" />
+		<object name="g_gib_18" enabled="true" />
+		<object name="g_gib_19" enabled="true" />
+		<object name="g_gib_20" enabled="true" />
+		<object name="g_gib_21" enabled="true" />
+		<object name="g_gib_22" enabled="true" />
+		<object name="g_gib_metal_1" enabled="true" />
+		<object name="g_gib_metal_2" enabled="true" />
+	</graphics>
+</dynamic_object>

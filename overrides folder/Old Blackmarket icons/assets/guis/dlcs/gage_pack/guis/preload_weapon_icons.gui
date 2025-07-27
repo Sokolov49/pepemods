@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/gage_pack/textures/pd2/blackmarket/icons/weapons/mp7"/>
+	<preload texture="guis/dlcs/gage_pack/textures/pd2/blackmarket/icons/weapons/p226"/>
+	<preload texture="guis/dlcs/gage_pack/textures/pd2/blackmarket/icons/weapons/scar"/>
+</gui>

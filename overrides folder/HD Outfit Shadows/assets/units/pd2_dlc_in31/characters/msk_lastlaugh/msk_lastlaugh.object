@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_in31/characters/msk_lastlaugh/msk_lastlaugh" orientation_object="rp_msk_lastlaugh" />
+	<graphics>
+		<object shadow_caster="true" name="g_mask" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_menu_cylinder" materials="units/menu/menu_scene/menu_cylinder" />
+    <graphics>
+        <object enabled="true" name="g_cylinder_mesh" />
+    </graphics>
+	
+	<effects>
+		<effect_spawner object="e_money" effect="effects/payday2/menu/moneyburn_menu" enabled="true" />
+	</effects>
+
+	<!--<lights>
+		<light multiplier="streetlight" editable="true" name="ls_spot" enabled="true" projection="true" type="plane_projection|spot|specular" far_range="400" texture="units/menu/menu_scene/menu_cylinder_projection_logo_df" />
+	</lights>
+	-->
+</dynamic_object>

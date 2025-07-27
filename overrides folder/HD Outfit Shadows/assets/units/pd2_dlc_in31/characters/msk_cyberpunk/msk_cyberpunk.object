@@ -1,0 +1,10 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_in31/characters/msk_cyberpunk/msk_cyberpunk" orientation_object="rp_cyberpunk_mask" />
+
+	<graphics>
+		<object shadow_caster="true" name="g_helmet" enabled="true" />
+		<object name="g_glow" enabled="true" />
+	</graphics>
+
+
+</dynamic_object>

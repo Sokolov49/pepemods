@@ -1,0 +1,1430 @@
+{	"ApplyOnAll":false,	"Saved":{
+	"m16":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.245, -4.005, -0.668)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.24458, -2.505, 2.332)"
+}
+}
+},
+	"ksg":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(0.654, -7.469, -2.311)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.346, -11.469, -4.311)"
+}
+}
+},
+	"cobray":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.278, 3.55, 1.83447)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.278, 3.55, 5.834)"
+}
+}
+},
+	"basset":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.801, 12.972, -2.625)"
+}
+}
+},
+	"boot":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.335, 12.445, -3.132)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-9.33527, 4.445, 4.56761)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.335, 6.445, -3.132)"
+}
+}
+},
+	"baka":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.335, 7.087, -0.483)"
+}
+}
+},
+	"fal":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.743, -1.101, 0.20962)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.743, -0.101, 2.21)"
+}
+}
+},
+	"r700":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.966, 7.925, -2.237)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-0.966, 8.925, -1.237)"
+}
+}
+},
+	"contraband":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.529, 6.066, -0.191)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-0.5287, 6.066, -2.19122)"
+}
+}
+},
+	"famas":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.118, 4.583, -1.452)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-9.118, 1.583, -1.452)"
+}
+}
+},
+	"akm_gold":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.46229, 1.522, 1.023)"
+}
+}
+},
+	"m1928":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.454, 1.375, -4.005)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-8.45351, 2.375, 3.99501)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.45351, 2.375, -1.00499)"
+}
+}
+},
+	"par":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.691, 0.552, -1.407)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.70597, 4.591, -3.392)"
+}
+}
+},
+	"g36":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.045, 1.141, -1.102)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.54496, -0.859, -1.10207)"
+}
+}
+},
+	"mp9":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.753, 5.799, 0.689)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.75309, 3.799, 2.68905)"
+}
+}
+},
+	"ak74":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.745, -0.371, 0.31)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.74472, -1.371, 1.80972)"
+}
+}
+},
+	"model70":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(2.035, 17.926, -4.078)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(1.03473, 10.926, -2.07756)"
+}
+}
+},
+	"czech":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.667, 6.877, 0.121)"
+}
+}
+},
+	"polymer":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.723, 1.497, 0.633139)"
+}
+}
+},
+	"m1911":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.572, 3.723, -2.207)"
+}
+}
+},
+	"b92fs":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.117, -0.953, -3.433)"
+}
+}
+},
+	"flint":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.247, 4.304, -0.118182)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.24686, 4.304, -1.11818)"
+}
+}
+},
+	"m37":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.77649, 19.606, -3.962)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.77649, 11.606, -0.962107)"
+}
+}
+},
+	"vityaz":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.248, -1.95551, -1.03416)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-6.748, -1.956, -1.03416)"
+}
+}
+},
+	"deagle":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.322, 1.35, -4.101)"
+}
+}
+},
+	"uzi":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.753, 1.869, 1.19002)"
+}
+}
+},
+	"shrew":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.57357, 2.721, -3.565)"
+}
+}
+},
+	"saiga":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.994, 9.289, -2.158)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-7.49391, 6.289, 1.84245)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.994, 2.289, -2.15755)"
+}
+}
+},
+	"vhs":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.43, 14.784, -0.21)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-9.43018, 7.784, 1.79038)"
+}
+}
+},
+	"system":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.34552, 0.036, 1.506)"
+}
+}
+},
+	"m45":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.737, -3.25, 2.387)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-6.737, -6.24995, 1.3867)"
+}
+}
+},
+	"judge":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.614205, 4.114, -6.172)"
+}
+}
+},
+	"rpg7":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.607, 1.899, 1.1448)",
+	"rotation":"Rotation(-4.08962e-005, -0.000580568, -13)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"rotation":"Rotation(-4.08962e-005, -0.000580567, -19)"
+}
+}
+},
+	"p226":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.572, 0.834, 0.022)"
+}
+}
+},
+	"coach":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-7.749, 7.862, 0.312825)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-6.749, 13.862, 0.312825)"
+}
+}
+},
+	"chinchilla":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.54, -1.696, 0.302)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.54, -10.6961, -0.698)"
+}
+}
+},
+	"desertfox":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(1.608, 16.702, -1.391)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-0.392, 17.702, 1.609)"
+}
+}
+},
+	"china":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.696, 3.347, -3.3)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-12.6957, -2.939, 6.6951)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.69567, -1.653, 3.70037)"
+}
+}
+},
+	"lemming":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.572, 2.331, -0.336234)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.572, -10.669, 0.664)"
+}
+}
+},
+	"huntsman":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.791, -5.961, 1.566)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-6.791, -3.961, 0.566089)"
+}
+}
+},
+	"p90":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.04, 5.719, -4.848)"
+}
+}
+},
+	"wa2000":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.529, 17.532, -1.248)"
+}
+}
+},
+	"siltstone":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.929828, 16.154, -1.75507)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.92983, 18.154, -2.75507)"
+}
+}
+},
+	"coal":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-7.628, 5.701, 0.0448477)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.628, 8.701, -0.955152)"
+}
+}
+},
+	"m1897":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.77649, 13, -1)"
+}
+}
+},
+	"ching":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.895, 13.742, -0.824)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.895, 14.742, -2.82378)"
+}
+}
+},
+	"sparrow":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.072, 0.657, 0.096)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.072, -6.343, 0.0955553)"
+}
+}
+},
+	"usp":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.617, -0.201, -4.392)"
+}
+}
+},
+	"akmsu":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.745, -0.375, -1.954)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.74486, -5.375, 1.5457)"
+}
+}
+},
+	"benelli":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.716, 13.243, -3.26)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.71624, 10.243, -0.26018)"
+}
+}
+},
+	"sub2000":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.529, 12.903, 2.502)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.52852, 15.903, 0.501786)"
+}
+}
+},
+	"r870":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.215, 10.677, 0.228)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.215, 11.677, -1.772)"
+}
+}
+},
+	"winchester1874":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.703, 9.818, 1.799)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.7035, 0.818, 8.29882)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-6.703, 9.818, 0.799)"
+}
+}
+},
+	"saw":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(5.308, -6.402, -3.959)",
+	"rotation":"Rotation(2.86719, -1.12836, 15.377)"
+}
+}
+},
+	"sbl":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.697, 12.99, 1.319)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.6967, 6.99, 8.3194)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.697, 17.99, 0.319)"
+}
+}
+},
+	"galil":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.24497, 0.931, -0.384)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.745, -5.069, 3.61564)"
+}
+}
+},
+	"aa12":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.231, 3.448, -2.725)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.2307, 5.448, -0.724749)"
+}
+}
+},
+	"mosin":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.777393, -1.503, -2.127)"
+}
+}
+},
+	"msr":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.772, 3.177, -3.635)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-8.77198, -2.823, 3.11458)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.272, -2.823, 1.365)"
+}
+}
+},
+	"beer":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.6673, 0.812, -3.131)"
+}
+}
+},
+	"g22c":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.61347, 4.31, -1.465)"
+}
+}
+},
+	"m60":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.721, 6.631, -3.877)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.735, 2.631, -1.814)"
+}
+}
+},
+	"gre_m79":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.814, 4.462, 0.725)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.814, -8.53816, 0.725498)"
+}
+}
+},
+	"mac10":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.681, -4.646, -3.363)"
+}
+}
+},
+	"spas12":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.716, 9.232, -0.0951872)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.716, 6.232, -2.095)"
+}
+}
+},
+	"g26":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.61347, 1.31, -1.465)"
+}
+}
+},
+	"new_raging_bull":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.539675, 0.128, -2.893)"
+}
+}
+},
+	"new_m4":{
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.7484, -3.996, 1.78333)"
+}
+},
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.248, -0.996, -1.217)"
+}
+}
+},
+	"l85a2":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.423, 3.942, 0.559136)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-9.42268, 6.442, 1.05914)"
+}
+}
+},
+	"holt":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.015, -3.81, 0.397599)"
+}
+}
+},
+	"packrat":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.573, -2.277, 0.472)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.573, -9.27651, -0.528458)"
+}
+}
+},
+	"striker":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.71649, 13.073, 0.539875)"
+}
+}
+},
+	"__All":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.631, -2.078, 0.624)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.743, 2.899, -0.79038)",
+	"rotation":"Rotation(-1.10801, 0.086, 1.372)"
+}
+}
+},
+	"scar":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.247, -1.472, -1.37424)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.247, -5.47196, -2.37424)"
+}
+}
+},
+	"shuno":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.1258, 7.515, -5.23566)"
+}
+}
+},
+	"pl14":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.072, -4.277, 0.793)"
+}
+}
+},
+	"colt_1911":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.617, -1.202, -0.393611)"
+}
+}
+},
+	"shepheard":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.212, 4.049, -0.990211)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.21191, -0.951, -1.99021)"
+}
+}
+},
+	"m95":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.943, 9.585, -5.898)"
+}
+}
+},
+	"erma":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.493946, 6.564, -2.238)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.49395, 4.564, -2.23842)"
+}
+}
+},
+	"m32":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.14378, 8.122, -0.279)"
+}
+}
+},
+	"glock_18c":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.613, 2.31, -2.465)"
+}
+}
+},
+	"hajk":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.186, 13.897, -1.507)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-9.18603, 10.897, 1.49328)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.686, 7.397, -0.706716)"
+}
+}
+},
+	"peacemaker":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-7.756, -0.267, -2.891)",
+	"rotation":"Rotation(0, 1.69981, 0)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-8.5722, -9.083, 2.80797)"
+}
+}
+},
+	"slap":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.535, -2.619, 2.302)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.62695, -1.619, 2.187)"
+}
+}
+},
+	"akm":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.745, -2.371, 1.305)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.74451, -1.371, 1.80527)"
+}
+}
+},
+	"legacy":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.573, -1.88, -3.993)"
+}
+}
+},
+	"sr2":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.4607, 7.464, 1.83089)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-9.4607, 5.464, 5.33089)"
+}
+}
+},
+	"ak5":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.747, 4.399, -2.338)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.74676, 2.399, -1.33758)"
+}
+}
+},
+	"new_m14":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.968, -0.999, -0.434127)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.9676, -7.999, 4.06587)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.968, -3.999, -1.93413)"
+}
+}
+},
+	"frankish":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-11.376, 2.71, 3.4458)"
+}
+}
+},
+	"tecci":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.731, 8.723, 2.35946)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-11.2307, 6.723, 3.55946)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.73069, 9.223, 1.35946)"
+}
+}
+},
+	"flamethrower_mk2":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.81, 19.741, -3.507)"
+}
+}
+},
+	"hk21":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.545, 4.607, -3.667)"
+}
+}
+},
+	"ray":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(0.440737, -17.611, 14.67)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-0.559, -12.611, 11.67)"
+}
+}
+},
+	"scorpion":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.756, 1.248, 3.13121)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.7562, -8.752, 6.38121)"
+}
+}
+},
+	"b682":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.473, 11.857, -0.688)",
+	"rotation":"Rotation(1.83526e-005, -0.00105637, 1)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-8.47314, 11.624, 5.69644)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-0.473143, 8.857, 1.31247)"
+}
+}
+},
+	"g3":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.227, 0.472, -1.41144)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.227, -0.528, -2.41144)"
+}
+}
+},
+	"new_mp5":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.197, 4.285, -4.509)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.19661, 0.285, -3.00927)"
+}
+}
+},
+	"hunter":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.529, 1.87, 1.8989)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.5286, -9.13, 5.3989)"
+}
+}
+},
+	"sterling":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.419, 6.016, -0.779658)"
+}
+}
+},
+	"tec9":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-7.048, 8.006, -3.066)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-6.048, 6.006, -0.0658722)"
+}
+}
+},
+	"asval":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.733, 8.748, 2.213)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.7334, 7.748, 6.21344)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.73343, 6.748, 2.51344)"
+}
+}
+},
+	"plainsrider":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.0944, -0.666775, -5.891)",
+	"rotation":"Rotation(-0.000784735, 6.999, 11)"
+}
+}
+},
+	"r93":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(0.255144, 0.575, -0.734)"
+}
+}
+},
+	"mp7":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.75399, 2.805, -2.387)"
+}
+}
+},
+	"amcar":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-6.25, 1.005, -1.671)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.7501, -1.995, 1.32866)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.25012, 4.505, -0.671343)"
+}
+}
+},
+	"ppk":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.61702, 0.32, -2.925)"
+}
+}
+},
+	"stech":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.572, 4.427, -3.596)"
+}
+}
+},
+	"mateba":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.637, -1.242, -3.55)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-8.63749, -9.242, 3.19964)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.637, -10.2418, -1.55036)"
+}
+}
+},
+	"olympic":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.745, 3.001, -1.665)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.7448, -1.999, 1.33477)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.74479, 2.001, -1.66523)"
+}
+}
+},
+	"aug":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.339, 15.107, 0.818)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-8.83927, 9.107, 4.31838)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.83927, 16.107, 1.31838)"
+}
+}
+},
+	"s552":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.201, 1.925, -0.648)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.20068, -0.075, 0.352197)"
+}
+}
+},
+	"schakal":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.876, 10.459, -2.79656)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-3.876, 7.45852, -3.79656)"
+}
+}
+},
+	"arbiter":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.60076, 22.071, -5.42496)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.60076, 29.071, -4.425)"
+}
+}
+},
+	"hs2000":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.617, -2.283, -0.184)"
+}
+}
+},
+	"komodo":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.01683, -0.983, 2.40512)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.01683, -3.983, 4.40512)"
+}
+}
+},
+	"mg42":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-0.721, 20.85, -7.992)",
+	"rotation":"Rotation(-0.107561, 0.087, -0.627993)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-7.68002, 6.85, -3.36568)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.721, 14.85, -7.992)",
+	"rotation":"Rotation(-0.107561, 0.0868937, -8.628)"
+}
+}
+},
+	"model3":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.54, -9.6961, -0.698)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.54, -6.696, -1.698)"
+}
+}
+},
+	"serbu":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.21602, 8.676, -3.777)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.71602, 4.676, 0.22308)"
+}
+}
+},
+	"m590":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.716, 16.397, -4.196)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-10.7159, 15.356, 5.18503)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.2159, 10.397, -2.19608)"
+}
+}
+},
+	"m249":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.721, 14.631, -2.87688)"
+}
+},
+	"steelsight":{
+	"shoulders":{
+	"translation":"Vector3(-1.23481, 11.631, -2.31368)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-0.721299, 14.631, -3.87688)"
+}
+}
+},
+	"glock_17":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-3.613, -0.82, -1.066)"
+}
+}
+},
+	"rpk":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.719, 19.295, -0.185)"
+}
+}
+},
+	"m134":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-5.24195, -9.573, -8.961)",
+	"rotation":"Rotation(1.18513e-005, -0.001, -14.0003)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-4.11444, -1.573, 4.433)",
+	"rotation":"Rotation(1.22559e-005, -0.001, -0.000282252)"
+}
+}
+},
+	"c96":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.571, -3.055, -0.731755)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-2.571, -11.0547, -1.23176)"
+}
+}
+},
+	"breech":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-1.216, 15.568, -3.207)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(0.783923, 8.568, -2.20716)"
+}
+}
+},
+	"rota":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-4.444, 10.845, -0.485)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-5.444, 3.845, 0.515162)"
+}
+}
+},
+	"tti":{
+	"standard":{
+	"shoulders":{
+	"translation":"Vector3(-2.869, 6.147, -4.065)"
+}
+},
+	"crouched":{
+	"shoulders":{
+	"translation":"Vector3(-1.86896, 4.147, -0.065)"
+}
+}
+}
+},	"ToggleKey":"f7",	"RefreshKey":"f5"}

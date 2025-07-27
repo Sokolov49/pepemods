@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_steering" materials="units/pd2_dlc_old_hoxton/equipment/gen_interactable_swat_van_steering_wheel/gen_interactable_swat_van_steering_wheel" />
+    <sequence_manager file="units/pd2_dlc_old_hoxton/equipment/gen_interactable_swat_van_steering_wheel/gen_interactable_swat_van_steering_wheel" />
+    <bodies>
+    	<body name="editor" enabled="true" template="editor">
+    		<object name="rp_steering" />
+    		<object name="g_g" collision_type="box" />
+    	</body>
+    </bodies>
+    <graphics>
+        <object name="g_g" enabled="true" />
+    </graphics>
+</dynamic_object>

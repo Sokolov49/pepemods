@@ -1,0 +1,21 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable" orientation_object="rp_chas_interactable_c4_placeable" />
+	<sequence_manager file="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+	
+<bodies>
+	<body name="body_static" enabled="true" template="static">
+		<object name="rp_chas_interactable_c4_placeable" />
+		<object name="c_box_01" collision_type="box" padding="-2.5" />
+	</body>
+</bodies>
+<effects>
+	<effect_spawner name="effect_light" enabled="false" object="effect" effect="effects/payday2/particles/flares/red_flare_blinking" />
+</effects>
+<graphics>
+	<object name="g_outline" enabled="true"/>
+	<object name="g_timer_goodbye" enabled="false"/>
+	<object name="g_c4" enabled="false" />
+	<object name="g_diodes" enabled="false" />
+	<object name="g_display" enabled="false"/> 
+</graphics>
+</dynamic_object>

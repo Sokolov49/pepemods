@@ -1,0 +1,38 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_berry/equipment/bry_interactable_control_display/bry_interactable_control_display" orientation_object="rp_bry_interactable_control_display" />
+	<sequence_manager file="units/pd2_dlc_berry/equipment/bry_interactable_control_display/bry_interactable_control_display" />
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="rp_bry_interactable_control_display" />
+			<object name="c_box_display" collision_type="box" />
+		</body>
+		<body name="body_static" enabled="false" template="static" collides_with_mover="false" remove_ray_type="walk vis_graph ai_vision">
+			<object name="rp_bry_interactable_control_display" />
+			<object name="c_box_display" collision_type="box" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="plastic" />
+
+
+	<graphics>
+		<object name="g_display_bg"					enabled="true"/>
+		<object name="g_display_disabled"			enabled="false"/>
+		
+		<graphic_group name="grp_locks" enabled="true">
+			<object name="g_display_begin"				enabled="true"/>
+			<object name="g_display_unlocking"			enabled="false"/>
+			<object name="g_display_interrupted"		enabled="false"/>
+			<object name="g_display_unlocked"			enabled="false"/>
+		</graphic_group>
+
+		<graphic_group name="grp_title" enabled="true">
+			<object name="g_display_header_ares"		enabled="true"/>
+			<object name="g_display_header_chronos"		enabled="false"/>
+			<object name="g_display_header_demeter"		enabled="false"/>
+			<object name="g_display_header_hades"		enabled="false"/>
+			<object name="g_display_header_poseidon"	enabled="false"/>
+			<object name="g_display_header_zeus"		enabled="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

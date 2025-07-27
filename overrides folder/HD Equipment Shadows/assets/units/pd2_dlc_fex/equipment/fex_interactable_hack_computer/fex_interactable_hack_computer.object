@@ -1,0 +1,42 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fex/equipment/fex_interactable_hack_computer/fex_interactable_hack_computer" orientation_object="rp_fex_interactable_hack_computer" />
+	<sequence_manager file="units/pd2_dlc_fex/equipment/fex_interactable_hack_computer/fex_interactable_hack_computer" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_fex_interactable_hack_computer" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="grp_outline" enabled="true" >
+			<lod_object name="lod_outline">
+				<object name="g_outline" enabled="true"  max_distance="500" />
+				<object name="g_outline_lod" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_mask" enabled="false">
+			<object name="g_text_jaguar_mask" enabled="true" />
+			<object name="g_text_owl_mask" enabled="true" />
+			<object name="g_text_dog_mask" enabled="true" />
+			<object name="g_text_serpent_mask" enabled="true" />
+		</graphic_group>
+		<object name="g_computerscreen" enabled="true" />
+		<object name="g_monitor" enabled="true" />
+		<object name="g_text_miguel_1" enabled="false" />
+		<object name="g_text_miguel_2" enabled="false" />
+		<object name="g_text_miguel_3" enabled="false" />
+		<object name="g_text_miguel_4" enabled="false" />
+		<object name="g_text_raul_1" enabled="false" />
+		<object name="g_text_raul_2" enabled="false" />
+		<object name="g_text_raul_3" enabled="false" />
+		<object name="g_text_raul_4" enabled="false" />
+		<object name="g_text_mucho_mike_1" enabled="false" />
+		<object name="g_text_mucho_mike_2" enabled="false" />
+		<object name="g_text_mucho_mike_3" enabled="false" />
+		<object name="g_text_mucho_mike_4" enabled="false" />
+		<object name="g_text_sanchez_1" enabled="false" />
+		<object name="g_text_sanchez_2" enabled="false" />
+		<object name="g_text_sanchez_3" enabled="false" />
+		<object name="g_text_sanchez_4" enabled="false" />
+	</graphics>
+</dynamic_object>

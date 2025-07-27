@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fex/characters/fex_acc_cartelboss/shared_materials/fex_acc_cartelboss" orientation_object="root_point"/>
+	<graphics>
+		<graphic_group culling_object="co_box" enabled="true" name="suit">
+			<object shadow_caster="true" enabled="true" name="g_body"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

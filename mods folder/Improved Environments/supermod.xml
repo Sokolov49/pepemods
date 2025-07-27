@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<mod name="sokolov's Improved Environments" global_key="impenvs">
+	<:include src="assets.xml" />
+	<tweak definition="xml/layers.diesel_layers"/>
+</mod>

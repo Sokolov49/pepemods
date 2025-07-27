@@ -1,0 +1,19 @@
+<table directory="assets">
+	<object path="units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1"/>
+	<object path="units/payday2/characters/npc_criminals_suit_1/npc_criminals_suit_1"/>
+	<object path="units/payday2/characters/npc_acc_tool_bag_1/npc_acc_tool_bag_1"/>
+	<object path="units/payday2/characters/npc_acc_tools_bag_large_1/npc_acc_tools_bag_large_1"/>
+	<object path="units/payday2/characters/npc_criminals_suit_1/npc_criminals_suit_menu_1"/>
+	<object path="units/payday2/characters/npc_criminal_female_1/npc_criminal_female_1_menu"/>
+	<object path="units/payday2/characters/npc_criminal_female_1/npc_criminal_female_1"/>
+	<object path="units/payday2/characters/npc_old_hoxton_prisonsuit_1/npc_old_hoxton_prisonsuit_1"/>
+	<object path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1"/>
+	<object path="units/payday2/characters/npc_acc_safe_wpn_1/npc_acc_safe_wpn_1"/>
+	<object path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1"/>
+	<object path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1"/>
+	<object path="units/payday2/characters/npc_acc_syringe/npc_acc_syringe"/>
+	<object path="units/payday2/characters/npc_acc_explosives_bag_1/npc_acc_explosives_bag_1"/>
+	<object path="units/payday2/characters/npc_acc_safe_ovk_1/npc_acc_safe_ovk_1"/>
+	<object path="units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1"/>
+	<object path="units/payday2/characters/npc_old_hoxton_prisonsuit_2/npc_old_hoxton_prisonsuit_2"/>
+</table>

@@ -1,0 +1,229 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_jerry/equipment/jry_int_money_crate/jry_int_money_crate" orientation_object="rp_jry_int_money_crate" />
+	<sequence_manager file="units/pd2_dlc_jerry/equipment/jry_int_money_crate/jry_int_money_crate" />
+	<bodies>
+		<body name="body_static" enabled="false" template="static">
+			<object name="rp_jry_int_money_crate" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_01" enabled="true" template="static">
+			<object name="money_crate_state01" />
+			<object name="c_box_01_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_056_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_045_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_024_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_023_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_023_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_05_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_04_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_03_box_dmg_1"	collision_type="box" padding="-2.5" />
+			<object name="c_box_02_box_dmg_1"	collision_type="box" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_02" enabled="false" template="static">
+			<object name="money_crate_state02" />
+			<object name="c_box_06_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_07_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_08_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_09_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_010_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_025_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_026_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_044_box_dmg_2"	collision_type="box" padding="-2.5" />
+			<object name="c_box_057_box_dmg_2"	collision_type="box" padding="-2.5" />
+		</body>
+	
+		<body name="body_collision_03" enabled="false" template="static">
+			<object name="money_crate_state03" />
+			<object name="c_box_011_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_012_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_013_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_014_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_015_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_016_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_027_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_028_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_043_box_dmg_3"	collision_type="box" padding="-2.5" />
+			<object name="c_box_058_box_dmg_3"	collision_type="box" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_04" enabled="false" template="static">
+			<object name="money_crate_state04" />
+			<object name="c_box_017_box_dmg_4"	collision_type="box" padding="-2.5" />
+			<object name="c_box_018_box_dmg_4"	collision_type="box" padding="-2.5" />
+			<object name="c_box_019_box_dmg_4"	collision_type="box" padding="-2.5" />
+			<object name="c_box_020_box_dmg_4"	collision_type="box" padding="-2.5" />
+			<object name="c_box_021_box_dmg_4"	collision_type="box" padding="-2.5" />
+			<object name="c_box_022_box_dmg_4"	collision_type="box" padding="-2.5" />
+			<object name="c_box_042_box_dmg_4"	collision_type="box" padding="-2.5" />
+			<object name="c_box_059_box_dmg_4"	collision_type="box" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_05" enabled="false" template="static">
+			<object name="money_crate_state05" />
+			<object name="c_box_029_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_030_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_031_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_032_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_033_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_034_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_035_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_036_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_039_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_040_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_041_box_dmg_5"	collision_type="box" padding="-2.5" />
+			<object name="c_box_060_box_dmg_5"	collision_type="box" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_06" enabled="false" template="static">
+			<object name="money_crate_state06" />
+			<object name="c_box_046_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_047_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_049_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_050_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_051_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_052_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_053_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_054_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_055_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_061_box_dmg_6"	collision_type="box" padding="-2.5" />
+			<object name="c_box_048_box_dmg_6"	collision_type="box" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_07" enabled="false" template="static">
+			<object name="money_crate_state07" />
+			<object name="c_box_062_box_dmg_7"	collision_type="box" padding="-2.5" />
+			<object name="c_box_063_box_dmg_7"	collision_type="box" padding="-2.5" />
+			<object name="c_box_064_box_dmg_7"	collision_type="box" padding="-2.5" />
+			<object name="c_box_065_box_dmg_7"	collision_type="box" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_08" enabled="false" template="static">
+			<object name="money_crate_state08" />
+			<object name="c_box_066_box_dmg_8"	collision_type="box" padding="-2.5" />
+			<object name="c_box_067_box_dmg_8"	collision_type="box" padding="-2.5" />
+			<object name="c_box_068_box_dmg_8"	collision_type="box" padding="-2.5" />
+			<object name="c_box_069_box_dmg_8"	collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="cloth">
+		<decal_mesh name="dm_metal_box_dmg_1"	enabled="true" material="cloth" />
+		<decal_mesh name="dm_metal_box_dmg_2"	enabled="false" material="cloth" />
+		<decal_mesh name="dm_metal_box_dmg_3"	enabled="false" material="cloth" />
+		<decal_mesh name="dm_metal_box_dmg_4"	enabled="false" material="cloth" />
+		<decal_mesh name="dm_metal_box_dmg_5"	enabled="false" material="cloth" />
+		<decal_mesh name="dm_metal_box_dmg_6"	enabled="false" material="cloth" />
+		<decal_mesh name="dm_metal_box_dmg_7"	enabled="false" material="cloth" />
+		<decal_mesh name="dm_metal_box_dmg_8"	enabled="false" material="cloth" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_strap1" enabled="false" />
+		<object name="g_strap2" enabled="false" />
+		<object name="g_strap3" enabled="false" />
+		<object name="g_strap4" enabled="false" />
+
+		<object name="g_strap1_outline" enabled="false" />
+		<object name="g_strap2_outline" enabled="false" />
+		<object name="g_strap3_outline" enabled="false" />
+		<object name="g_strap4_outline" enabled="false" />
+
+		<lod_object name="lod_g_boxes">
+			<object name="g_boxes_lod0_box_dmg_1"	enabled="true" max_distance="3000" />
+			<object name="g_boxes_lod1_box_dmg_1"	enabled="true" />
+		</lod_object>
+
+		<lod_object name="lod_g_box_dmg_2">
+			<object name="g_money_lod0_box_dmg_2"	enabled="false" max_distance="3000" />
+			<object name="g_money_lod1_box_dmg_2"	enabled="false" />			
+		</lod_object>
+
+		<lod_object name="lod_g_box_dmg_3">
+			<object name="g_money_lod0_box_dmg_3"	enabled="false" max_distance="3000" />
+			<object name="g_money_lod1_box_dmg_3"	enabled="false"  />
+		</lod_object>
+
+		<lod_object name="lod_g_box_dmg_4">
+			<object name="g_money_lod0_box_dmg_4"	enabled="false" max_distance="3000" />
+			<object name="g_money_lod1_box_dmg_4"	enabled="false" />
+		</lod_object>	
+
+		<lod_object name="lod_g_box_dmg_5">
+			<object name="g_money_lod0_box_dmg_5"	enabled="false" max_distance="3000" />
+			<object name="g_money_lod1_box_dmg_5"	enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_box_dmg_6">
+			<object name="g_money_lod0_box_dmg_6"	enabled="false" max_distance="3000" />
+			<object name="g_money_lod1_box_dmg_6"	enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_box_dmg_7">
+			<object name="g_money_lod0_box_dmg_7"	enabled="false" max_distance="3000" />
+			<object name="g_money_lod1_box_dmg_7"	enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_box_dmg_8">
+			<object name="g_money_lod0_box_dmg_8"	enabled="false" max_distance="3000" />
+			<object name="g_money_lod1_box_dmg_8"	enabled="false" />			
+		</lod_object>
+
+		<lod_object name="lod_g_money_pile">
+			<object name="g_money_pile_lod0"		enabled="false" max_distance="3000" />
+			<object name="g_money_pile_lod1"		enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_net">
+			<object name="g_net_lod0" enabled="false" max_distance="3000" />
+			<object name="g_net_lod1" enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_1">
+			<object name="g_straps_lod0_box_dmg_1" enabled="true" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_1" enabled="true" />
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_2">
+			<object name="g_straps_lod0_box_dmg_2" enabled="false" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_2" enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_3">
+			<object name="g_straps_lod0_box_dmg_3" enabled="false" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_3" enabled="false"/>
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_4">
+			<object name="g_straps_lod0_box_dmg_4" enabled="false" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_4" enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_5">
+			<object name="g_straps_lod0_box_dmg_5" enabled="false" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_5" enabled="false"/>
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_6">
+			<object name="g_straps_lod0_box_dmg_6" enabled="false" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_6" />
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_7">
+			<object name="g_straps_lod0_box_dmg_7" enabled="false" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_7" enabled="false" />
+		</lod_object>
+
+		<lod_object name="lod_g_straps_dmg_8">
+			<object name="g_straps_lod0_box_dmg_8" enabled="false" max_distance="3000" />
+			<object name="g_straps_lod1_box_dmg_8" enabled="false" />
+		</lod_object>
+
+		<object name="s_state01_box_dmg_1"	enabled="true"	shadow_caster="true" />
+		<object name="s_state02_box_dmg_2"	enabled="false"	shadow_caster="true" />
+		<object name="s_state03_box_dmg_3"	enabled="false"	shadow_caster="true" />
+		<object name="s_state04_box_dmg_4"	enabled="false"	shadow_caster="true" />
+		<object name="s_state05_box_dmg_5"	enabled="false"	shadow_caster="true" />
+		<object name="s_state06_box_dmg_6"	enabled="false"	shadow_caster="true" />
+		<object name="s_state07_box_dmg_7"	enabled="false"	shadow_caster="true" />
+		<object name="s_shadow_box_dmg_8"	enabled="false"	shadow_caster="true" />
+	</graphics>
+</dynamic_object>

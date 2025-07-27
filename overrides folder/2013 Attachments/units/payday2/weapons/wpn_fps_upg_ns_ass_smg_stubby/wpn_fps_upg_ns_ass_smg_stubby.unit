@@ -1,0 +1,6 @@
+<unit type="wpn" slot="1" >
+    <object file="units/payday2/weapons/wpn_fps_upg_ns_ass_smg_stubby/wpn_fps_upg_ns_ass_smg_stubby" />
+    <extensions>
+        <extension name="unit_data" class="ScriptUnitData" />
+    </extensions>
+</unit>
