@@ -1,0 +1,1 @@
+# Removes shitty stickers from Crime Spree armor skins to make them more visually appealing, also unlocks them for free

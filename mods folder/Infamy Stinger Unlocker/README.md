@@ -1,0 +1,1 @@
+# Simply unlocks the infamy join stingers because who the FUCK is gonna grind to infamy 100
