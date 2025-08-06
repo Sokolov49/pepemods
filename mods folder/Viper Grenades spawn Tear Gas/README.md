@@ -1,0 +1,1 @@
+# Spawns Tear Gas wherever Viper Grenades explode, untested online, this is also made primarily for Eclipse
