@@ -2,6 +2,8 @@
 
 this will not work if you have other mods that affect regular_weapon_sfx as that soundbank is necessary for the volume increase for the 'fake echo' of the guns that sbz deliberately lowered for whatever reason
 
+this also may not work if you have autofire sound fix installed, as that mod removes the fps echo entirely somehow
+
 if you do not like the custom echo then you can delete the 'streamed' folder, that way you will restore the vanilla echo but with custom loudness
 
 useless fun fact:
