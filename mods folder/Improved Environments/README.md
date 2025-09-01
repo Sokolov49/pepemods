@@ -4,6 +4,8 @@ This will NOT work with any other environment mods such as Day/Night Changes Reb
 
 The code for particle effects and No Mercy alt env is based on MetroLine's work, most notably; https://modworkshop.net/mod/47859 and https://modworkshop.net/mod/46513.
 
+Also uses code for flashlights ( https://modworkshop.net/mod/50866 ) ported by miss miki ( https://modworkshop.net/user/erushinj ) from Streamlined Heisting
+
 Previews below: (not a complete showcase, screenshots were taken while using old shaders)
 ![](https://raw.githubusercontent.com/Sokolov49/pepemods/refs/heads/main/screenshots-ignore/20250716211153_1.jpg)
 ![](https://raw.githubusercontent.com/Sokolov49/pepemods/refs/heads/main/screenshots-ignore/20250705215538_1.jpg)
