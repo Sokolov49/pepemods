@@ -1,0 +1,1 @@
+removes brackets and makes interaction icons slightly transparent while keeping pdth style
