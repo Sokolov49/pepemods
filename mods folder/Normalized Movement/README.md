@@ -1,0 +1,1 @@
+# This mod attempts to normalize and reduce the feeling of floatiness from PD2's movement, it also introduces camera shakes for landing, jumping, picking up bags and throwing them as well as porting the accurate player camera height from that one PD:TH mod.
