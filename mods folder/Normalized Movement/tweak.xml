@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<tweaks>
+	<tweak version="2" name="settings/camera_shakes" extension="camera_shakes">
+		<search>
+			<camera_shakes/>
+		</search>
+		<target mode="attach">
+			<shake name="player_jumps" spin="(rnd()-0.5) * 0.01" roll="0" tilt="0.1" frequency="1.0" amplitude="1.0" attack="0.01" sustain="0.0" decay="0.4"/>
+		</target>
+	</tweak>
+	
+	<tweak version="2" name="settings/camera_shakes" extension="camera_shakes">
+		<search>
+			<camera_shakes/>
+		</search>
+		<target mode="attach">
+			<shake name="player_lands" spin="sin(t)/50" tilt="cos(t)/50" frequency="100.0" amplitude="1.0" attack="0.0" sustain="0.0" decay="0.5"/>
+		</target>
+	</tweak>
+</tweaks>
