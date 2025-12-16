@@ -1,0 +1,11 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_wilderness_day" default_environment="acoustics_wilderness_forest" default_occasional="occasionals_silent">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_radiator_hiss_loop" name="sound_emitter_001" position="-2581 -474 573" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_radiator_hiss_loop" name="sound_emitter_002" position="1964 -504 573" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_int_industrial_small" depth="418" environment="pd2_acoustics_tunnel_small" height="290" name="sound_environment_001" occasional_event="occasionals_silent" position="-3403 -1359 617" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="7405"/>
+		<table ambience_event="ambience_ext_docks_large" depth="1000" environment="acoustics_indoor_default" height="440" name="sound_environment_002" occasional_event="occasionals_city_dock" position="3320 1818 449" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1510"/>
+	</sound_environments>
+</table>

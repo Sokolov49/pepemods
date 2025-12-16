@@ -1,0 +1,34 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_wilderness_night" default_environment="acoustics_outdoor_large" default_occasional="occasionals_silent">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_ac_hum_03" name="sound_emitter_001" position="1310 4783 66" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_03" name="sound_emitter_002" position="1470 3959 66" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_003" position="3291 4454 66" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_03" name="sound_emitter_004" position="-2515 3214 66" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_005" position="-3257 1992 -140" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_006" position="-3565 1744 -140" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_03" name="sound_emitter_007" position="-3327 -532 88" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_008" position="-3370 35 -127" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_03" name="sound_emitter_009" position="-2621 4229 631" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_010" position="-3567 -900 56" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_011" position="-3289 -294 56" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_012" position="1310 4964 66" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_013" position="1470 4200 66" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_014" position="-2692 3233 66" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_015" position="-2588 2854 234" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_016" position="-2628 864 270" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_ext_wilderness_night" depth="1850" environment="acoustics_outdoor_medium" height="590" name="sound_environment_001" occasional_event="occasionals_silent" position="1238 3677 -3" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="330"/>
+		<table ambience_event="ambience_int_industrial_large" depth="1865" environment="acoustics_indoor_large_hiecho" height="600" name="sound_environment_002" occasional_event="occasionals_silent" position="1578 3646 -4" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1640"/>
+		<table ambience_event="ambience_ext_wilderness_night" depth="310" environment="acoustics_outdoor_medium" height="610" name="sound_environment_003" occasional_event="occasionals_city_dock" position="-3250 746 -202" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1870"/>
+		<table ambience_event="ambience_ext_wilderness_night" depth="4040" environment="acoustics_outdoor_medium" height="700" name="sound_environment_004" occasional_event="occasionals_silent" position="-3629 -934 -225" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="410"/>
+		<table ambience_event="ambience_ext_wilderness_night" depth="350" environment="acoustics_outdoor_medium" height="560" name="sound_environment_005" occasional_event="occasionals_silent" position="-3228 2744 -205" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="870"/>
+		<table ambience_event="ambience_ext_wilderness_night" depth="4160" environment="acoustics_outdoor_medium" height="580" name="sound_environment_006" occasional_event="occasionals_silent" position="-454,001 6516 -75" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1010"/>
+		<table ambience_event="ambience_ext_docks_large" depth="845" environment="acoustics_outdoor_medium" height="400" name="sound_environment_007" occasional_event="occasionals_city_dock" position="3240 4664 -2,95679" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="370"/>
+		<table ambience_event="ambience_int_industrial_large" depth="1865" environment="acoustics_indoor_large_hiecho" height="600" name="sound_environment_008" occasional_event="occasionals_silent" position="-397 3646 -4" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1640"/>
+		<table ambience_event="ambience_int_industrial_large" depth="1855" environment="acoustics_indoor_large_hiecho" height="620" name="sound_environment_009" occasional_event="occasionals_silent" position="-1372 -929 -4" rotation="0 0 -0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1640"/>
+		<table ambience_event="ambience_int_industrial_large" depth="1850" environment="acoustics_indoor_large_hiecho" height="610" name="sound_environment_010" occasional_event="occasionals_silent" position="-1372 1071 -4" rotation="0 0 -0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1640"/>
+		<table ambience_event="ambience_int_office_medium" depth="2760" environment="acoustics_indoor_large_loecho" height="1000" name="sound_environment_011" occasional_event="occasionals_a_silent" position="805 1497 -2" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1785"/>
+	</sound_environments>
+</table>

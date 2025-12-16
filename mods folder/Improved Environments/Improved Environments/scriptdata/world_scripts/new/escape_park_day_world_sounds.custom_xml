@@ -1,0 +1,11 @@
+<table ambience_enabled="false" default_ambience="ambience_ext_downtown_large_day" default_environment="acoustics_wilderness_forest" default_occasional="occasionals_city_traffic">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_water_on_hollow_plastic" name="sound_emitter_001" position="325 -1500 171,357" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="1510" environment="acoustics_outdoor_medium" height="620" name="sound_environment_001" occasional_event="occasionals_city_traffic" position="4930 -1354 -201" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1510"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="2000" environment="acoustics_outdoor_large" height="450" name="sound_environment_002" occasional_event="occasionals_city_traffic" position="-3121 -2000 -200" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="660"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="960" environment="acoustics_outdoor_medium" height="310" name="sound_environment_003" occasional_event="occasionals_city_traffic" position="2838 -828 -180" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="300"/>
+	</sound_environments>
+</table>

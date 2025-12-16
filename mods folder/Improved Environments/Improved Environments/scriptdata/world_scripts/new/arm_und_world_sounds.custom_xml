@@ -1,0 +1,18 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_downtown_large_day" default_environment="acoustics_wilderness_forest" default_occasional="occasionals_city_traffic">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_001" position="5110 -1012 485,82" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_002" position="4719 -1012 481,41" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_03" name="sound_emitter_003" position="5643 -1253 382,37" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_03" name="sound_emitter_004" position="-7191 4141 554,61" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_ext_downtown_underpass" depth="2500" environment="pd2_acoustics_tunnel_medium" height="600" name="sound_environment_001" occasional_event="occasionals_city_traffic" position="-1750 -550 169,2" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1400"/>
+		<table ambience_event="ambience_ext_downtown_underpass" depth="2500" environment="pd2_acoustics_tunnel_medium" height="600" name="sound_environment_002" occasional_event="occasionals_city_traffic" position="1400 -550 270,2" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1400"/>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="3000" environment="acoustics_outdoor_medium" height="500" name="sound_environment_003" occasional_event="occasionals_city_traffic" position="4995 -4059 288,5" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1120"/>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="2000" environment="acoustics_outdoor_large" height="500" name="sound_environment_004" occasional_event="occasionals_city_traffic" position="-7467 2177 282" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1410"/>
+		<table ambience_event="ambience_int_industrial_small" depth="1010" environment="pd2_acoustics_tunnel_medium" height="500" name="sound_environment_005" occasional_event="occasionals_city_traffic" position="-2156 -1758 290" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="2270"/>
+		<table ambience_event="ambience_int_industrial_small" depth="1780" environment="pd2_acoustics_tunnel_medium" height="420" name="sound_environment_006" occasional_event="occasionals_city_traffic" position="597 1730 204" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="2710"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="920" environment="acoustics_outdoor_medium" height="500" name="sound_environment_007" occasional_event="occasionals_city_dock" position="108 -1482 295,65" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="700"/>
+	</sound_environments>
+</table>

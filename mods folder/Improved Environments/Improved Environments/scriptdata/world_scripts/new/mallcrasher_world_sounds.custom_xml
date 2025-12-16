@@ -1,0 +1,23 @@
+<table ambience_enabled="true" default_ambience="ambience_int_office_medium" default_environment="acoustics_indoor_large_loecho" default_occasional="occasionals_silent">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_vending_machine_loop" name="sound_emitter_001" position="-1573 -2750 77" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_vending_machine_loop" name="sound_emitter_002" position="502 1257 -317" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_radiator_hiss_loop" name="sound_emitter_003" position="445 -446 474" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_radiator_hiss_loop" name="sound_emitter_004" position="653 -446 474" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_radiator_hiss_loop" name="sound_emitter_005" position="653 -446 93" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_radiator_hiss_loop" name="sound_emitter_006" position="443 -446 93" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_ext_docks_large" depth="2410" environment="acoustics_indoor_large_hiecho" height="820" name="sound_environment_001" occasional_event="occasionals_silent" position="225 2375 -403" rotation="0 0 1 -1,19209E-07" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1470"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="5700" environment="acoustics_wilderness_forest" height="820" name="sound_environment_002" occasional_event="occasionals_city_traffic" position="3500 2375 -425" rotation="0 0 -0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="2200"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="1620" environment="acoustics_outdoor_large" height="820" name="sound_environment_003" occasional_event="occasionals_city_traffic" position="-1250 2375 -425" rotation="0 0 1 -2,98023E-08" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="700"/>
+		<table ambience_event="ambience_int_office_large" depth="4400" environment="acoustics_indoor_large_hiecho" height="420" name="sound_environment_004" occasional_event="occasionals_silent" position="-850 -4425 -25" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1000"/>
+		<table ambience_event="ambience_int_office_large" depth="4500" environment="acoustics_indoor_large_hiecho" height="390" name="sound_environment_005" occasional_event="occasionals_silent" position="-1100 -4475 386" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1340"/>
+		<table ambience_event="ambience_ext_docks_large" depth="1390" environment="pd2_acoustics_tunnel_medium" height="1000" name="sound_environment_006" occasional_event="occasionals_city_traffic" position="1800 2375 -419" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1600"/>
+		<table ambience_event="ambience_int_office_small" depth="700" environment="pd2_acoustics_tunnel_medium" height="1600" name="sound_environment_007" occasional_event="occasionals_silent" position="875 -300 -824,823" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="450"/>
+		<table ambience_event="ambience_int_office_small" depth="700" environment="pd2_acoustics_tunnel_medium" height="1200" name="sound_environment_008" occasional_event="occasionals_silent" position="-1125 -3500 -803,859" rotation="0 0 1 1,19209E-07" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="450"/>
+		<table ambience_event="ambience_ext_docks_large" depth="925" environment="acoustics_indoor_large_hiecho" height="350" name="sound_environment_009" occasional_event="occasionals_silent" position="-2690 -1657 396" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1600"/>
+		<table ambience_event="ambience_ext_docks_large" depth="935" environment="acoustics_indoor_large_hiecho" height="800" name="sound_environment_010" occasional_event="occasionals_silent" position="181 -4067 386" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="900"/>
+	</sound_environments>
+</table>

@@ -1,0 +1,12 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_downtown_underpass" default_environment="pd2_acoustics_tunnel_medium" default_occasional="occasionals_silent">
+	<sound_area_emitters/>
+	<sound_emitters/>
+	<sound_environments>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="2670" environment="acoustics_wilderness_forest" height="800" name="sound_environment_001" occasional_event="occasionals_city_traffic" position="-1289 1561 439" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="3190"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="1580" environment="acoustics_wilderness_forest" height="800" name="sound_environment_002" occasional_event="occasionals_city_traffic" position="-1298 -901 437" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="3200"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="790" environment="acoustics_wilderness_forest" height="800" name="sound_environment_003" occasional_event="occasionals_city_traffic" position="297 -1691 440" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1600"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="800" environment="acoustics_outdoor_medium" height="800" name="sound_environment_004" occasional_event="occasionals_city_traffic" position="-1334 -1697 459" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="840"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="960" environment="acoustics_wilderness_forest" height="800" name="sound_environment_005" occasional_event="occasionals_city_traffic" position="-1291 632 436" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="800"/>
+		<table ambience_event="ambience_int_fans_1" depth="820" environment="acoustics_outdoor_large" height="1130" name="sound_environment_006" occasional_event="occasionals_silent" position="-500 750 -360" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="2460"/>
+	</sound_environments>
+</table>

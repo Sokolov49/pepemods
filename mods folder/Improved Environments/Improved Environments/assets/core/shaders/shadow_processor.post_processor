@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<post_processor>
+	<materials config_name="shadow_processor">
+		<material name="shadow">			
+			<variable name="slice0" type="vector3" value="0 800 0"/>
+			<variable name="slice1" type="vector3" value="650 1600 0"/>
+			<variable name="slice2" type="vector3" value="1300 5500 0"/>
+			<variable name="slice3" type="vector3" value="5100 17500 0"/>
+			
+			<variable name="shadow_slice_depths" type="vector3" value="800 1600 5500"/>
+			<variable name="shadow_slice_overlap" type="vector3" value="150 300 400"/>
+			<variable name="shadow_fadeout" type="vector3" value="16000 17500 0"/>			
+
+			<variable name="fov_ratio" type="scalar" value="1.0"/>
+		</material>	
+	</materials>
+	
+	<effect name="shadow_rendering">		
+		<shadow_mapper dst="shadow_depth" material="shadow" scriptable="shadow_modifier">
+			<reference_fov value="75"/> <!-- This value changes when we soom in and out, so its not correct like this, could be feeded too -->
+			<light_extrusion_distance value="20000"/> <!-- This value could be dynamic, since a low angle requires this type of distance, while a high value requires alot less -->
+			
+			<!--
+			<partition viewport="0.0 0.0 0.5 0.5" depth_range_variable="slice0"/>
+			<partition viewport="0.5 0.0 0.5 0.5" depth_range_variable="slice1"/>
+			<partition viewport="0.0 0.5 0.5 0.5" depth_range_variable="slice2"/>
+			<partition viewport="0.5 0.5 0.5 0.5" depth_range_variable="slice3"/>			
+			-->
+			
+			<partition viewport="0.5 0.0 0.5 1" depth_range_variable="slice0"/>
+			<partition viewport="0.0 0.0 0.5 0.5" depth_range_variable="slice1"/>
+			<partition viewport="0.0 0.5 0.5 0.5" depth_range_variable="slice2"/>
+			
+		</shadow_mapper>
+	</effect>
+	
+<!--	
+	<effect name="shadow_rendering_PC">		
+		<shadow_mapper dst="shadow_depth" material="shadow" scriptable="shadow_modifier">
+			<reference_fov value="75"/>
+			<light_extrusion_distance value="30000"/>
+			
+			<partition viewport="0.5 0.0 0.5 1" depth_range_variable="slice0"/>
+			<partition viewport="0.0 0.0 0.5 0.5" depth_range_variable="slice1"/>
+			<partition viewport="0.0 0.5 0.5 0.5" depth_range_variable="slice2"/>
+		</shadow_mapper>
+	</effect>	
+	
+	<effect name="shadow_rendering">		
+		<shadow_mapper dst="shadow_depth" material="shadow" scriptable="shadow_modifier">
+			<reference_fov value="75"/>
+			<light_extrusion_distance value="45000"/>
+-->
+
+			<!-- <partition viewport="0 0 1 1" depth_range_variable="slice0"/> -->
+
+<!--			
+			<partition viewport="0.5 0.0 0.5 1" depth_range_variable="slice0"/>
+			<partition viewport="0.0 0.0 0.5 0.5" depth_range_variable="slice1"/>
+			<partition viewport="0.0 0.5 0.5 0.5" depth_range_variable="slice2"/>
+		</shadow_mapper>
+	</effect>	
+-->
+	
+</post_processor>

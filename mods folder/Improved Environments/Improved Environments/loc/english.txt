@@ -1,0 +1,7 @@
+{
+	"envsmod_main_menu_title" : "Improved Environments",
+	"envsmod_main_menu_desc" : "Options for Improved Environments",
+
+	"envsmod_color_gradings_title" : "Enable Color Gradings",
+	"envsmod_color_gradings_desc" : "When enabled, you will also have randomized color gradings for each environment. \nRequires Custom Color Grading to function properly."
+}

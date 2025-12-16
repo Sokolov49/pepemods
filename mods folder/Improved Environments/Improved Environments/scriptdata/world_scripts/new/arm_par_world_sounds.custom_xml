@@ -1,0 +1,17 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_downtown_large_day" default_environment="acoustics_wilderness_forest" default_occasional="occasionals_city_traffic">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_water_fountain" name="sound_emitter_001" position="-774 60 -176,938" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_water_fountain" name="sound_emitter_002" position="-774 -718 -179,273" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_water_still" name="sound_emitter_003" position="1055 -218 -425" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_water_still" name="sound_emitter_004" position="1055 1121 -425" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_water_fountain" name="sound_emitter_005" position="-774 -364 -179,273" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_water_still" name="sound_emitter_006" position="1055 489 -425" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="850" environment="acoustics_outdoor_large" height="730" name="sound_environment_001" occasional_event="occasionals_city_traffic" position="-2704 4107 -190" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="5510"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="740" environment="acoustics_outdoor_large" height="720" name="sound_environment_002" occasional_event="occasionals_city_traffic" position="-1911 -5382 -180,001" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="4730"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="5430" environment="acoustics_outdoor_large" height="720" name="sound_environment_003" occasional_event="occasionals_city_traffic" position="-4974 -2852 -177" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="540"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="1490" environment="acoustics_outdoor_large" height="730" name="sound_environment_004" occasional_event="occasionals_city_traffic" position="4587 3358 -176" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="730"/>
+	</sound_environments>
+</table>

@@ -1,0 +1,29 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_industrial_large" default_environment="acoustics_wilderness_forest" default_occasional="occasionals_city_traffic">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_car_idle_03" name="sound_emitter_001" position="-1576 666 39" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_car_idle_03" name="sound_emitter_002" position="-2281 424 39" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_car_idle_03" name="sound_emitter_003" position="-2622 -355 43" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_car_idle_03" name="sound_emitter_004" position="-1431 -2535 39" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_car_idle_03" name="sound_emitter_005" position="-2444 -3040 53" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_006" position="-320 -1398 479" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_007" position="-320 -1072 479" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_008" position="1155 1846 479" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_009" position="1049 2325 479" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_lorry_idle_04" name="sound_emitter_010" position="943 152 95" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_011" position="-829 1701 886" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_012" position="-476 1740 883" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_013" position="-951 2663 886" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_014" position="-54 2691 953" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum_02" name="sound_emitter_015" position="-325 3052 911" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_int_industrial_small" depth="230" environment="acoustics_indoor_small_loecho" height="260" name="sound_environment_001" occasional_event="occasionals_silent" position="139 34 78,2402" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="590"/>
+		<table ambience_event="ambience_int_industrial_large" depth="210" environment="acoustics_outdoor_large" height="100" name="sound_environment_002" occasional_event="occasionals_city_traffic" position="173 45 -17,9998" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="630"/>
+		<table ambience_event="ambience_int_industrial_medium" depth="1610" environment="acoustics_outdoor_medium" height="420" name="sound_environment_003" occasional_event="occasionals_city_traffic" position="1346 1766 -25" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="440"/>
+		<table ambience_event="ambience_int_industrial_medium" depth="2370" environment="acoustics_indoor_large_loecho" height="1050" name="sound_environment_004" occasional_event="occasionals_silent" position="1806 947 391,997" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="980"/>
+		<table ambience_event="ambience_ext_downtown_windy_day" depth="1590" environment="acoustics_wilderness_forest" height="1000" name="sound_environment_005" occasional_event="occasionals_city_traffic" position="-4538 1610 672,089" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="4680"/>
+		<table ambience_event="ambience_int_industrial_medium" depth="1080" environment="acoustics_outdoor_large" height="1000" name="sound_environment_006" occasional_event="occasionals_silent" position="-728 3194 -21" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1570"/>
+		<table ambience_event="ambience_ext_industrial_small" depth="430" environment="acoustics_outdoor_medium" height="360" name="sound_environment_007" occasional_event="occasionals_city_traffic" position="2619 -303 407,006" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="350"/>
+	</sound_environments>
+</table>

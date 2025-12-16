@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<tweak version="2" name="core/settings/layers" extension="diesel_layers">
+	<search>
+		<diesel_layers/>
+		<defined/>
+		<render_target name="temp" src="back_buffer" size_from_render_settings="lighting_resolution" own_depth_buffer="false" hint_needs_clearing="true" format="A16B16G16R16F" msaa="false" srgb="false"/>
+	</search>
+	<target mode="attributes">
+		<attr name="clear_color" value="0xff000000"/>
+	</target>
+</tweak>

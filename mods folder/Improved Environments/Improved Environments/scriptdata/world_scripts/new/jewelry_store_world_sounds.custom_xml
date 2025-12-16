@@ -1,0 +1,21 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_downtown_large_day" default_environment="acoustics_wilderness_forest" default_occasional="occasionals_city_traffic">
+	<sound_area_emitters/>
+	<sound_emitters>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_001" position="-1125 -702 379,734" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_ac_hum" name="sound_emitter_002" position="177 -2477 313" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_copy_machine_loop" name="sound_emitter_003" position="51 -922 79" rotation="0 0 0 -1"/>
+		<table emitter_event="emitter_copy_machine_loop" name="sound_emitter_004" position="-593 -1148 98" rotation="0 0 0 -1"/>
+	</sound_emitters>
+	<sound_environments>
+		<table ambience_event="ambience_ext_downtown_small_night" depth="2020" environment="acoustics_outdoor_large" height="1000" name="sound_environment_001" occasional_event="occasionals_silent" position="-1538 -1845 22" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="450"/>
+		<table ambience_event="ambience_int_fans_1" depth="1040" environment="acoustics_indoor_small_loecho" height="400" name="sound_environment_002" occasional_event="occasionals_silent" position="-1850 100 23" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1010"/>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="930" environment="acoustics_wilderness_forest" height="500" name="sound_environment_003" occasional_event="occasionals_silent" position="-1600 -2775 0" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="2460"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="1770" environment="acoustics_outdoor_large" height="1000" name="sound_environment_004" occasional_event="occasionals_silent" position="800 -3000 0" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1500"/>
+		<table ambience_event="ambience_ext_downtown_large_day" depth="1000" environment="acoustics_outdoor_medium" height="1000" name="sound_environment_005" occasional_event="occasionals_silent" position="1850 -1325 0" rotation="0 0 -0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="2200"/>
+		<table ambience_event="ambience_int_office_small" depth="760" environment="acoustics_indoor_large_loecho" height="350" name="sound_environment_006" occasional_event="occasionals_silent" position="-1110 -794 0" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="830"/>
+		<table ambience_event="ambience_int_office_small" depth="760" environment="acoustics_indoor_large_loecho" height="350" name="sound_environment_007" occasional_event="occasionals_silent" position="78 -971 0" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="830"/>
+		<table ambience_event="ambience_int_office_small" depth="450" environment="acoustics_indoor_small_loecho" height="350" name="sound_environment_008" occasional_event="occasionals_silent" position="-354 -619 0" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1100"/>
+		<table ambience_event="ambience_int_office_medium" depth="1230" environment="acoustics_indoor_large_loecho" height="350" name="sound_environment_009" occasional_event="occasionals_silent" position="-396 1094 0" rotation="0 0 0,707107 -0,707107" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="1730"/>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="1790" environment="acoustics_outdoor_large" height="1000" name="sound_environment_010" occasional_event="occasionals_silent" position="1275 4350 -0,00012207" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1130"/>
+	</sound_environments>
+</table>

@@ -1,0 +1,9 @@
+<table ambience_enabled="true" default_ambience="ambience_ext_downtown_large_day" default_environment="acoustics_wilderness_forest" default_occasional="occasionals_city_traffic">
+	<sound_area_emitters/>
+	<sound_emitters/>
+	<sound_environments>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="850" environment="acoustics_outdoor_medium" height="1000" name="sound_environment_001" occasional_event="occasionals_city_traffic" position="1791 2370 523" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="1560"/>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="780" environment="acoustics_outdoor_medium" height="300" name="sound_environment_002" occasional_event="occasionals_city_traffic" position="-4604 821 531,966" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="false" width="650"/>
+		<table ambience_event="ambience_ext_downtown_small_day" depth="780" environment="acoustics_outdoor_medium" height="300" name="sound_environment_003" occasional_event="occasionals_city_traffic" position="-3470 -2031 531,966" rotation="0 0 0 -1" type="box" use_ambience="true" use_environment="true" use_occasional="true" width="680"/>
+	</sound_environments>
+</table>
