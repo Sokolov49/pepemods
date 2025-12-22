@@ -230,12 +230,16 @@ local rnd10 = math.floor(math.random() * 11)
 		if level_id == "red2" then
 			if rnd4 == 0 then
 				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-1.custom_xml", "custom_xml", "environments/pd2_red/pd2_red", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-1.custom_xml", "custom_xml", "environments/pd2_red_indoor/pd2_red_indoor", "environment")
 				elseif rnd4 == 1 then
 				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-2.custom_xml", "custom_xml", "environments/pd2_red/pd2_red", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-2.custom_xml", "custom_xml", "environments/pd2_red_indoor/pd2_red_indoor", "environment")
 				elseif rnd4 == 2 then
 				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-3.custom_xml", "custom_xml", "environments/pd2_red/pd2_red", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-3.custom_xml", "custom_xml", "environments/pd2_red_indoor/pd2_red_indoor", "environment")
 				elseif rnd4 == 3 then
 				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-4.custom_xml", "custom_xml", "environments/pd2_red/pd2_red", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/red2-4.custom_xml", "custom_xml", "environments/pd2_red_indoor/pd2_red_indoor", "environment")
 			end
 		end
 		if level_id == "watchdogs_1" then
