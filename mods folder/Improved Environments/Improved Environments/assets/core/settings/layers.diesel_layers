@@ -20,13 +20,13 @@
 	
 <!-- Shadow targets -->
 	<defined platform="X360">
-		<render_target name="shadow_depth" width="16384" height="16384" format="SHADOWMAP" hint_needs_clearing="true"/>
+		<render_target name="shadow_depth" width="1024" height="1024" format="SHADOWMAP" hint_needs_clearing="true"/>
 	<else/>
 		<defined platform="PS3">
 			<!-- <render_target name="shadow_depth" width="1216" height="1216" format="SHADOWMAP" hint_needs_clearing="true"/> -->
-			<render_target name="shadow_depth" width="16384" height="16384" format="SHADOWMAP" hint_needs_clearing="false"/>
+			<render_target name="shadow_depth" width="1024" height="1024" format="SHADOWMAP" hint_needs_clearing="false"/>
 		<else/>
-			<render_target name="shadow_depth" width="16384" height="16384" format="SHADOWMAP" hint_needs_clearing="false"/>
+			<render_target name="shadow_depth" width="1024" height="1024" format="SHADOWMAP" hint_needs_clearing="false"/>
 		</defined>
 	</defined>
 	
@@ -35,7 +35,7 @@
 	<render_target name="particles" src="albedo" width="4" height="4" format="A8R8G8B8" hint_needs_clearing="false"/>
 	
 	<!--
-	<render_target name="fog_lookup" width="16384" height="2" format="A16B16G16R16F" hint_needs_clearing="false"/>
+	<render_target name="fog_lookup" width="1024" height="2" format="A16B16G16R16F" hint_needs_clearing="false"/>
 	<render_target name="fog_depth" src="fog_lookup" format="DEPTHSTENCIL" hint_needs_clearing="false"/>
 	-->
 	
