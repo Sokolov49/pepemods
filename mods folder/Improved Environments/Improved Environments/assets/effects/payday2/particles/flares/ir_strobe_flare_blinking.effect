@@ -1,0 +1,26 @@
+<effect force_synch="false">
+    <atom name="Glow" min_size="1" max_size="1 " lifetime="-1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="15" fade_out_start="500" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="20" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <localboxrandomposition min="0 0 0" max="0 0 0"/>
+        </initializerstack>
+        <simulatorstack>
+            <worldtransform transform_rotations="false"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/payday2/textures/flares/small_lamp_flare_orange_round_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_halo" origo="0.5 0.5" per_particle_age="false" size_input="keys" color_input="constant" color="169 179 186" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="1 1" uv_offset_input="constant" uv_offset="1 1">
+                <size_keys loop="true">
+                    <key t="0" v="500 500"/>
+                    <key t="0.058520000427961" v="500 500"/>
+                    <key t="0.10000000149012" v="0 0"/>
+                    <key t="1" v="0 0"/>
+                </size_keys>
+                <opacity_keys loop="true">
+                    <key t="0" v="255"/>
+                    <key t="0.059999998658895" v="255"/>
+                    <key t="0.10000000149012" v="0"/>
+                    <key t="1" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>

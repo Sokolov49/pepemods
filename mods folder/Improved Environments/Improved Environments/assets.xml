@@ -4,6 +4,88 @@
 		<xml :name="pd2_env_night.environment"/>
     </group>
 
+	<file name="effects/payday2/particles/flares/alesso_stage_flare_1.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/blue_flare_blinking.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/blue_flare_static.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/candle_light_flare.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/ceiling_lamp_flare.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/corp_lamp_flare_big_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/corp_lamp_flare_straight_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/corp_spot_flare_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/curator_lamp_soda_small.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/deep_flare_far_blue.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/deep_flare_far_blue_big.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/deep_flare_far_green.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/deep_flare_far_orange.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/deep_flare_far_orange_big.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/deep_flare_far_square.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/disco_flare_big_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/disco_flare_big_02.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/disco_flare_big_03.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/drone_flare_blue.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/drone_flare_red.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/drone_flare_white.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/flare_blue_small_blinking.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/godrays_dust.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/godrays_dust_smaller.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_floor_lamp_small.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_blue.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_small.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v2.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v3.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v4.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v5.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v6.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v7.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v8.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v9.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v10.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v11.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_lamp_v12.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/indoor_sign.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/ir_strobe_flare_blinking.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/nails_ceiling_lamp.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/nails_table_lamp.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/red_emergency_light.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/red_flare_blinking.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/red_flare_static.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/scene_flare_small_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/sea_flare_big_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/small_lamp_flare.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/small_lamp_flare_blue.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/small_lamp_flare_blue_long.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/small_lamp_flare_blue_round.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/small_lamp_flare_fluorescent.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/small_lamp_orange_v2.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/spotlight.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/spotlight_flare.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/spotlight_flare_strong.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_big.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_big_long_range.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_big_round.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_big_round_blue.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_blueish.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_blueish_big.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_blueish_small.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_green_small.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_orange_round.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_small.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_small_orange.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_small_round.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_01_v2.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_01_v3.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_02.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_02_less.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_03.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_04.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_window_05.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/street_light_flare_yellow.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/window_flare_01.effect" force="true"/>
+	<file name="effects/payday2/particles/flares/window_flare_02.effect" force="true"/>
+
 	<file name="effects/particles/weapons/flashlight/largebeam_256.dds"/>
 
 	<file name="core/settings/layers.diesel_layers" force="true"/>
@@ -21,6 +103,9 @@
 	<file name="core/environments/skies/sky_1945_sunset_clouds/sky_1945_sunset_clouds.material_config" load="true" force="true"/>
 	<file name="core/environments/skies/sky_1945_sunset_clouds/top_clouds_df.texture" load="true" force="true"/>
 	<file name="core/environments/skies/sky_1945_sunset_clouds/stormy_clouds_df.texture" load="true" force="true"/>
+	
+	<file name="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1.material_config" load="true" force="true"/>
+	<file name="units/payday2/architecture/gen_watchdog_2_water/gen_watchdog_2_water.material_config" load="true" force="true"/>
 	
 	<file name="effects/environment_smoke_blue_env.effect" force="true" load="true"/>
 	<file name="effects/fire_w_embers.effect" force="true" load="true"/>
