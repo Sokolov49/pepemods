@@ -104,8 +104,8 @@
 	<file name="core/environments/skies/sky_1945_sunset_clouds/top_clouds_df.texture" load="true" force="true"/>
 	<file name="core/environments/skies/sky_1945_sunset_clouds/stormy_clouds_df.texture" load="true" force="true"/>
 	
-	<file name="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1.material_config" load="true" force="true"/>
-	<file name="units/payday2/architecture/gen_watchdog_2_water/gen_watchdog_2_water.material_config" load="true" force="true"/>
+	<!-- <file name="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1.material_config" load="true" force="true"/>
+	<file name="units/payday2/architecture/gen_watchdog_2_water/gen_watchdog_2_water.material_config" load="true" force="true"/> -->
 	
 	<file name="effects/environment_smoke_blue_env.effect" force="true" load="true"/>
 	<file name="effects/fire_w_embers.effect" force="true" load="true"/>
