@@ -7,7 +7,7 @@
         <effect name="effects/particles/bullet_hit/concrete/bullet_hit_concrete_empty"/>
         <effect name="effects/particles/bullet_hit/concrete/bullet_hit_concrete_visible"/>
     </use_random>
-    <atom name="Dust Puff" min_size="1" max_size="3" lifetime="2" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="Dust Puff" min_size="1" max_size="3" lifetime="5" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
             <boxrandomvelocity relative="effect" min="0 0 20" max="0 0 20"/>
@@ -34,7 +34,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="Dust Puff_2" min_size="2" max_size="2" lifetime="2" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="Dust Puff_2" min_size="2" max_size="2" lifetime="6" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
             <boxrandomvelocity relative="effect" min="0 0 10" max="0 0 40"/>
@@ -124,7 +124,7 @@
         <simulatorstack>
             <velocityintegrator channel="world"/>
             <constantacceleration relative="world" acceleration="0 0 -900"/>
-			<particleworldcollision radius="5" elasticity="0"/>
+            <particleworldcollision radius="5" elasticity="0"/>
         </simulatorstack>
         <visualizerstack>
             <billboard texture="effects/textures/opacity_atlas_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 0.6" per_particle_age="false" size_input="channel" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.125 0.0625" uv_offset_input="channel">

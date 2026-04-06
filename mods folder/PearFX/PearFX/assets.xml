@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <assets base_path="assets/">
+	<!-- Menu -->
+	<file name="effects/payday2/menu/moneyburn_menu.effect" force="true" load="true"/>
+
 	<!-- Textures -->
 	<file name="effects/payday2/textures/shells/shell_9mm.texture" force="true" load="true"/>
 	<file name="effects/payday2/textures/shells/shell_127.texture" force="true" load="true"/>
@@ -7,10 +10,18 @@
 	<file name="effects/payday2/textures/shells/shell_link.texture" force="true" load="true"/>
 	<file name="effects/payday2/textures/shells/shell_slug_df.texture" force="true" load="true"/>
 	<file name="effects/textures/effects_atlas.texture" force="true" load="true"/>
+	<file name="effects/textures/add_atlas_df.texture" force="true" load="true"/>
+	<file name="effects/textures/fire/e_fire_static_01_8x4_seq_loop.texture" force="true" load="true"/>
+	<file name="effects/textures/fire/e_fire_dynamic_01_8x4_seq_loop.texture" force="true" load="true"/>
+	<file name="effects/textures/bullet_hit/e_fire_static_01_8x4_seq_loop.texture" force="true" load="true"/>
+	<file name="effects/textures/bullet_hit/e_fire_static_loop_infamy_df.texture" force="true" load="true"/>
+	<file name="effects/textures/bullet_hit/e_muzzle_flash03_mgsj2.texture" force="true" load="true"/>
+	<file name="effects/textures/misc/dollar_bill_effect_df_df.texture" force="true" load="true"/>
 	
 	<!-- Smoke -->
 	<file name="effects/particles/explosions/smoke_grenade_smoke.effect" force="true" load="true"/>
 	<file name="effects/particles/explosions/smoke_screen.effect" force="true" load="true"/>
+	<file name="effects/payday2/environment/cs_gas_damage_area.effect" force="true" load="true"/>
 	
 	<!-- Molotov -->
 	<file name="effects/payday2/particles/explosions/molotov_grenade.effect" force="true" load="true"/>
