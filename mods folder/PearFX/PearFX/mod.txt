@@ -5,7 +5,9 @@
 	"version" : "2",	
 	"author" : "sokolov, headshot effect code by Nelson01023",
 	"contact" : "",
-  	"version" : "0.1",
+	"color" : "128 0 0",
+	"image" : "mod.png",
+  	"version" : "0.11",
  	"updates" : [{
 	"identifier" : "pear_effects",
 	"host": { "meta": "https://raw.githubusercontent.com/Sokolov49/pepemods/refs/heads/main/mods%20folder/PearFX/meta.json", }
