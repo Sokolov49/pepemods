@@ -1,0 +1,40 @@
+<effect force_synch="false">
+    <use_random>
+        <effect name="effects/payday2/particles/impacts/metal_impact_pd2"/>
+        <effect name="effects/payday2/particles/impacts/metal_impact_pd2"/>
+        <effect name="effects/particles/bullet_hit/sheet_metal/bullet_hit_sheet_metal"/>
+        <effect name="effects/particles/bullet_hit/sheet_metal/bullet_hit_sheet_metal"/>
+        <effect name="effects/payday2/particles/impacts/metal_impact_pd2"/>
+        <effect name="effects/payday2/particles/impacts/metal_impact_pd2"/>
+        <effect name="effects/particles/bullet_hit/sheet_metal/bullet_hit_sheet_metal"/>
+        <effect name="effects/payday2/particles/impacts/metal_impact_pd2"/>
+        <effect name="effects/payday2/particles/impacts/bullet_burn/bullet_burn_spark"/>
+        <effect name="effects/payday2/particles/impacts/bullet_burn/bullet_burn_spark"/>
+        <effect name="effects/particles/bullet_hit/sheet_metal/bullet_hit_sheet_metal"/>
+        <effect name="effects/particles/bullet_hit/sheet_metal/bullet_hit_sheet_metal"/>
+    </use_random>
+    <atom name="compact_big_smoke" min_size="1" max_size="3" lifetime="2" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
+            <boxrandomvelocity relative="effect" min="0 0 20" max="0 30 30"/>
+            <boxrandomangle min="-3.14" max="3.14"/>
+            <boxrandomaspectsize size="5 5" min="1" max="3"/>
+        </initializerstack>
+        <simulatorstack>
+            <velocityintegrator channel="world"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="106.00000762939 106.00000762939 106.00000762939" opacity_input="keys" rotation_input="channel" rotation_axis="1 0 5" uv_size="0.25 0.25" uv_offset_input="constant" uv_offset="0.75 0.5">
+                <size_scale_keys loop="false">
+                    <key t="0" v="1 1"/>
+                    <key t="0.52495694160461" v="2 2"/>
+                    <key t="1.9965579509735" v="5 5"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0.02581755630672" v="100"/>
+                    <key t="2" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>

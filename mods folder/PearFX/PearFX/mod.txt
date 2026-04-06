@@ -1,0 +1,18 @@
+{
+	"blt_version" : 2,
+	"name" : "PearFX",
+	"description" : "effect slop",
+	"version" : "2",	
+	"author" : "sokolov, headshot effect code by Nelson01023",
+	"contact" : "",
+  	"version" : "0.1",
+ 	"updates" : [{
+	"identifier" : "pear_effects",
+	"host": { "meta": "https://raw.githubusercontent.com/Sokolov49/pepemods/refs/heads/main/mods%20folder/PearFX/meta.json", }
+	}],
+	"hooks" : [
+		{"hook_id" : "lib/units/enemies/cop/copdamage", "script_path" : "lua/copdamage.lua"},
+		{"hook_id" : "lib/tweak_data/weapontweakdata", "script_path" : "lua/weapontweakdata.lua"},
+		{"hook_id" : "lib/tweak_data/tweakdata", "script_path" : "lua/tweakdata.lua"}
+	]
+}

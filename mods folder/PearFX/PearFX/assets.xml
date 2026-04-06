@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<assets base_path="assets/">
+	<!-- Textures -->
+	<file name="effects/payday2/textures/shells/shell_9mm.texture" force="true" load="true"/>
+	<file name="effects/payday2/textures/shells/shell_127.texture" force="true" load="true"/>
+	<file name="effects/payday2/textures/shells/shell_556.texture" force="true" load="true"/>
+	<file name="effects/payday2/textures/shells/shell_link.texture" force="true" load="true"/>
+	<file name="effects/payday2/textures/shells/shell_slug_df.texture" force="true" load="true"/>
+	<file name="effects/textures/effects_atlas.texture" force="true" load="true"/>
+	
+	<!-- Smoke -->
+	<file name="effects/particles/explosions/smoke_grenade_smoke.effect" force="true" load="true"/>
+	<file name="effects/particles/explosions/smoke_screen.effect" force="true" load="true"/>
+	
+	<!-- Molotov -->
+	<file name="effects/payday2/particles/explosions/molotov_grenade.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_1s.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_7s.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_9s.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_endless.effect" force="true" load="true"/>
+
+	<!-- Headshot parts -->
+	<file name="effects/helmet_glass_break.effect" force="true" load="true"/>
+	<file name="effects/blood_headshot.effect" force="true" load="true"/>
+	
+	<!-- Explosions -->
+	<file name="effects/explosion_grenade.effect" force="true" load="true"/>
+	<file name="effects/explosion_grenade_launcher.effect" force="true" load="true"/>
+	<file name="effects/explosion_incendiary.effect" force="true" load="true"/>
+	
+	<!-- Environment hits -->
+	<file name="effects/payday2/particles/impacts/concrete_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/stone_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/heavy_swat_steel_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/sheet_metal_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/wood_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/metal_impact_pd2.effect" force="true"/>
+	
+	<!-- FPS effect parts -->
+	<file name="effects/payday2/particles/weapons/fps_parts/big_fps_ball_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/big_fps_extra_long_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/extra_fps_big_sparse.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_ball_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_big_flash_sniper.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_big_sparse.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_combo_light_all.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_exhaust_smoke.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_extra_long_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_fireball.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_giant_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_medium_light.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_blue_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_smoke_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_spark_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/fps_sparse_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/sniper_fps_extra_long_flash.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/third_big_flash_sniper.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/muzzle_smoke.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/fps_parts/muzzle_heat.effect" force="true"/>
+	
+	<!-- FPS gun effects -->
+	<file name="effects/payday2/particles/weapons/9mm_pistol_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/9mm_smg_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/45cal_deagle_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/45cal_pistol_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/45cal_pistol_fps_flashhider.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/45cal_smg_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/45cal_smg_fps_flashhider.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/50cal_auto_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/357_revolver_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/357_revolver_fps_flashhider.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/556_auto_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/556_auto_fps_flashhider.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/762_auto_fps.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/762_auto_fps_flashhider.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/big_762_auto_fps.effect" force="true"/>
+	
+	<!-- Brighter shells + they bounce off the floor (at least most of them..) -->
+	<file name="effects/payday2/particles/weapons/shells/shell_9mm.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/shells/shell_556.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/shells/shell_556_lmg.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/shells/shell_slug_2x.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/shells/shell_slug_g2.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/shells/shell_slug_semi.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/shells/shell_sniper.effect" force="true"/>
+	
+	<!-- Bullet tracer parts -->
+	<file name="effects/payday2/particles/weapons/streaks/big_light_streak.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/streaks/light_streak.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/streaks/long_streak.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/streaks/traveling_streak.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/streaks/traveling_streak_red.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/streaks/traveling_streak_green.effect" force="true"/>
+	
+	<!-- Bullet tracers -->
+	<file name="effects/particles/weapons/weapon_trail.effect" force="true"/>
+	<file name="effects/particles/weapons/weapon_trail_green.effect" force="true"/>
+	<file name="effects/particles/weapons/weapon_trail_red.effect" force="true"/>
+	<file name="effects/particles/weapons/weapon_trail_green_lmg.effect" force="true"/>
+	<file name="effects/particles/weapons/weapon_trail_red_lmg.effect" force="true"/>
+	<file name="effects/particles/weapons/sniper_trail_player.effect" force="true"/>
+	<file name="effects/particles/weapons/shotgun_streak.effect" force="true"/>
+	<file name="effects/particles/weapons/shotgun_streak_buck.effect" force="true"/>
+	<file name="effects/particles/weapons/shotgun_streak_db.effect" force="true"/>
+	<file name="effects/particles/weapons/shotgun_streak_flech.effect" force="true"/>
+</assets>

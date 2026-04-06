@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<mod name="effect test">
+	<:include src="assets.xml" />
+</mod>
