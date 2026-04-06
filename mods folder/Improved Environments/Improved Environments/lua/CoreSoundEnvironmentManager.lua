@@ -13,6 +13,9 @@
 -- id as first param and active boolean as second
 
 -- Remove an object by calling remove_check_object with the returned id as param
+if not Global.load_level then 
+	return
+end
 local level_id = Global.game_settings.level_id
 if level_id == "glace" then return else
 

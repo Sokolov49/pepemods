@@ -57,7 +57,7 @@
 					<bloom_lense>
 						<param key="lense_intensity" value="0.047014575451612"/>
 						<param key="bloom_blur_size" value="1.9873061180115"/>
-						<param key="bloom_intensity" value="0.094029150903225"/>
+						<param key="bloom_intensity" value="1"/>
 					</bloom_lense>
 				</bloom_combine>
 			</bloom_combine_post_processor>

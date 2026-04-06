@@ -28,30 +28,30 @@ local rnd10 = math.floor(math.random() * 11)
 						local branchbank_colors_randomized = branchbank_colors[ math.random( 1, #branchbank_colors ) ]
 						tweak_data.levels.branchbank.env_params = { color_grading = branchbank_colors_randomized }
 					else return end -- this one kinda sucks
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_bluey.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_midday_alt.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 1 then
 					if envsmod._settings.color_gradings then
 						local branchbank_colors = { 'color_nice', 'color_payday_classic', 'color_bhd_classic', 'color_payday' }
 						local branchbank_colors_randomized = branchbank_colors[ math.random( 1, #branchbank_colors ) ]
 						tweak_data.levels.branchbank.env_params = { color_grading = branchbank_colors_randomized }
 					else return end -- this one sucks as well!!
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cold.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cloudy.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 2 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_milk.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta2.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 3 then
 					if envsmod._settings.color_gradings then
 						local branchbank_colors = { 'color_nice', 'color_payday_classic', 'color_xxxgen', 'color_payday' }
 						local branchbank_colors_randomized = branchbank_colors[ math.random( 1, #branchbank_colors ) ]
 						tweak_data.levels.branchbank.env_params = { color_grading = branchbank_colors_randomized }
 					else return end
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_orange.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 4 then
 					if envsmod._settings.color_gradings then
 						local branchbank_colors = { 'color_nice', 'color_payday_classic', 'color_xgen', 'color_payday' }
 						local branchbank_colors_randomized = branchbank_colors[ math.random( 1, #branchbank_colors ) ]
 						tweak_data.levels.branchbank.env_params = { color_grading = branchbank_colors_randomized }
 					else return end
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_default.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 			end
 		end
 		if level_id == "big" then
@@ -154,30 +154,30 @@ local rnd10 = math.floor(math.random() * 11)
 						local firestarter_3_colors_randomized = firestarter_3_colors[ math.random( 1, #firestarter_3_colors ) ]
 						tweak_data.levels.firestarter_3.env_params = { color_grading = firestarter_3_colors_randomized }
 					else return end
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_bluey.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_midday_alt.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 1 then
 					if envsmod._settings.color_gradings then
 						local firestarter_3_colors = { 'color_nice', 'color_bhd_classic' ,'color_payday_classic', 'color_payday' }
 						local firestarter_3_colors_randomized = firestarter_3_colors[ math.random( 1, #firestarter_3_colors ) ]
 						tweak_data.levels.firestarter_3.env_params = { color_grading = firestarter_3_colors_randomized }
 					else return end
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cold.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cloudy.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 2 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_milk.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta2.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 3 then
 					if envsmod._settings.color_gradings then
 						local firestarter_3_colors = { 'color_nice', 'color_xxxgen' ,'color_payday_classic', 'color_payday' }
 						local firestarter_3_colors_randomized = firestarter_3_colors[ math.random( 1, #firestarter_3_colors ) ]
 						tweak_data.levels.firestarter_3.env_params = { color_grading = firestarter_3_colors_randomized }
 					else return end
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_orange.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 4 then
 					if envsmod._settings.color_gradings then
 						local firestarter_3_colors = { 'color_nice', 'color_xgen' ,'color_payday_classic', 'color_payday' }
 						local firestarter_3_colors_randomized = firestarter_3_colors[ math.random( 1, #firestarter_3_colors ) ]
 						tweak_data.levels.firestarter_3.env_params = { color_grading = firestarter_3_colors_randomized }
 					else return end
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_default.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 			end
 		end
 		if level_id == "mad" then
@@ -201,27 +201,34 @@ local rnd10 = math.floor(math.random() * 11)
 			end
 		end
 		if level_id == "jewelry_store" then
-			if rnd3 == 0 then
+			if rnd4 == 0 then
 					if envsmod._settings.color_gradings then
 						local jewelry_store_colors = { 'color_nice', 'color_bhd_classic', 'color_heat', 'color_payday_classic', 'color_payday' }
 						local jewelry_store_colors_randomized = jewelry_store_colors[ math.random( 1, #jewelry_store_colors ) ]
 						tweak_data.levels.jewelry_store.env_params = { color_grading = jewelry_store_colors_randomized }
 					else return end
 					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/jewelrystore_betalike.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd3 == 1 then
+				elseif rnd4 == 1 then
 					if envsmod._settings.color_gradings then
 						local jewelry_store_colors = { 'color_nice', 'color_bhd_classic', 'color_matrix_classic', 'color_payday_classic', 'color_payday' }
 						local jewelry_store_colors_randomized = jewelry_store_colors[ math.random( 1, #jewelry_store_colors ) ]
 						tweak_data.levels.jewelry_store.env_params = { color_grading = jewelry_store_colors_randomized }
 					else return end
 					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/jew_1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd3 == 2 then
+				elseif rnd4 == 2 then
 					if envsmod._settings.color_gradings then
 						local jewelry_store_colors = { 'color_nice', 'color_xgen', 'color_xxxgen', 'color_matrix_classic', 'color_bhd_classic', 'color_payday_classic', 'color_payday' }
 						local jewelry_store_colors_randomized = jewelry_store_colors[ math.random( 1, #jewelry_store_colors ) ]
 						tweak_data.levels.jewelry_store.env_params = { color_grading = jewelry_store_colors_randomized }
 					else return end
 					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/jew_2.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd4 == 3 then
+					if envsmod._settings.color_gradings then
+						local jewelry_store_colors = { 'color_nice', 'color_xgen', 'color_xxxgen', 'color_matrix_classic', 'color_bhd_classic', 'color_payday_classic', 'color_payday' }
+						local jewelry_store_colors_randomized = jewelry_store_colors[ math.random( 1, #jewelry_store_colors ) ]
+						tweak_data.levels.jewelry_store.env_params = { color_grading = jewelry_store_colors_randomized }
+					else return end
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/jewelrystore_1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 			end
 		end
 		if level_id == "hox_3" then
@@ -252,47 +259,63 @@ local rnd10 = math.floor(math.random() * 11)
 			end
 		end
 		if level_id == "watchdogs_1" then
-			if rnd4 == 0 then
+			if rnd5 == 0 then
 				if envsmod._settings.color_gradings then
 					tweak_data.levels.watchdogs_1.env_params = { color_grading = "color_payday_classic" }
 				else return end
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/wd1_day1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd4 == 1 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 1 then
 				if envsmod._settings.color_gradings then
 					tweak_data.levels.watchdogs_1.env_params = { color_grading = "color_bhd_classic" }
 				else return end
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/wd1_day3.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd4 == 2 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/wd1_day4.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd4 == 3 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_2.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 2 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_3.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 3 then
 				if envsmod._settings.color_gradings then
 					tweak_data.levels.watchdogs_1.env_params = { color_grading = "color_payday_classic" }
 				else return end
 				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/family_3.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 4 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_4.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 			end
 		end
 		if level_id == "watchdogs_1_night" then
-			if rnd2 == 0 then
+			if rnd3 == 0 then
 					if envsmod._settings.color_gradings then
 						local watchdogs_1_night_colors = { 'color_heat_classic', 'color_bhd_classic' }
 						local watchdogs_1_night_colors_randomized = watchdogs_1_night_colors[ math.random( 1, #watchdogs_1_night_colors ) ]
 						tweak_data.levels.watchdogs_1_night.env_params = { color_grading = watchdogs_1_night_colors_randomized }
 					else return end
 					tweak_data.levels.watchdogs_1_night.flashlights_on = true
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_night_1.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_night_1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd2 == 1 then
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_1_night.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_1_night.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd3 == 1 then
 					if envsmod._settings.color_gradings then
 						local watchdogs_1_night_colors = { 'color_heat_classic', 'color_bhd_classic' }
 						local watchdogs_1_night_colors_randomized = watchdogs_1_night_colors[ math.random( 1, #watchdogs_1_night_colors ) ]
 						tweak_data.levels.watchdogs_1_night.env_params = { color_grading = watchdogs_1_night_colors_randomized }
 					else return end
 					tweak_data.levels.watchdogs_1_night.flashlights_on = true
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_night_2.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_night_2.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_2_night.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_2_night.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd3 == 2 then
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_4_night.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_1_4_night.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 			end
 		end
 		if level_id == "watchdogs_2" then
+			if rnd3 == 0 then
+				if envsmod._settings.color_gradings then
+					local watchdogs_2_colors = { 'color_xxxgen', 'color_matrix_classic', 'color_bhd_classic', 'color_heat', 'color_payday_classic', 'color_payday' }
+					local watchdogs_2_colors_randomized = watchdogs_2_colors[ math.random( 1, #watchdogs_2_colors ) ]
+					tweak_data.levels.watchdogs_2.env_params = { color_grading = watchdogs_2_colors_randomized }
+				else return end
+				tweak_data.levels.watchdogs_2.flashlights_on = true
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_2_1_night.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
+			end
+		end
+		if level_id == "watchdogs_2_day" then
 			if rnd3 == 0 then
 					if envsmod._settings.color_gradings then
 						local watchdogs_2_colors = { 'color_xxxgen', 'color_matrix_classic', 'color_bhd_classic', 'color_heat', 'color_payday_classic', 'color_payday' }
@@ -300,7 +323,7 @@ local rnd10 = math.floor(math.random() * 11)
 						tweak_data.levels.watchdogs_2.env_params = { color_grading = watchdogs_2_colors_randomized }
 					else return end
 					tweak_data.levels.watchdogs_2.flashlights_on = true
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/wd2_1.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_2_1.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
 				elseif rnd3 == 1 then
 					if envsmod._settings.color_gradings then
 						local watchdogs_2_colors = { 'color_bhd_classic', 'color_heat', 'color_payday_classic', 'color_payday' }
@@ -308,7 +331,7 @@ local rnd10 = math.floor(math.random() * 11)
 						tweak_data.levels.watchdogs_2.env_params = { color_grading = watchdogs_2_colors_randomized }
 					else return end
 					tweak_data.levels.watchdogs_2.flashlights_on = true
-					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/wd2_2.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
+					BeardLib:ReplaceScriptData(mod_path .. "scriptdata/watchdogs_2_2.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
 				elseif rnd3 == 2 then
 					if envsmod._settings.color_gradings then
 						local watchdogs_2_colors = { 'color_nice', 'color_matrix_classic', 'color_bhd_classic', 'color_heat', 'color_payday_classic', 'color_payday' }
@@ -598,8 +621,8 @@ local rnd10 = math.floor(math.random() * 11)
 				local glace_colors_randomized = glace_colors[ math.random( 1, #glace_colors ) ]
 				tweak_data.levels.glace.env_params = { color_grading = glace_colors_randomized }
 			else return end
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/green_bridge.custom_xml", "custom_xml", "environments/pd2_glace/glace_outside", "environment")
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/green_bridge_inside.custom_xml", "custom_xml", "environments/pd2_glace/glace_inside", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/green_bridge_outside3.custom_xml", "custom_xml", "environments/pd2_glace/glace_outside", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/green_bridge_inside3.custom_xml", "custom_xml", "environments/pd2_glace/glace_inside", "environment")
 		end
 		if level_id == "hvh" then
 			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/killroom_trippy.custom_xml", "custom_xml", "environments/pd2_env_hvh/hvh_default", "environment")
@@ -670,7 +693,7 @@ local rnd10 = math.floor(math.random() * 11)
 				tweak_data.levels.framing_frame_1.env_params = { color_grading = framing_frame_1_colors_randomized }
 			else return end
 			tweak_data.levels.framing_frame_1.flashlights_on = true
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/framing1.custom_xml", "custom_xml", "environments/pd2_env_framing_frame_stage_2/pd2_env_framing_frame_stage_2", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/framing1.custom_xml", "custom_xml", "environments/pd2_env_framing_frame_stage_2/pd2_env_framing_frame_stage_2", "environment")
 		end
 		if level_id == "framing_frame_2" then
 			if envsmod._settings.color_gradings then
@@ -679,7 +702,7 @@ local rnd10 = math.floor(math.random() * 11)
 				tweak_data.levels.framing_frame_2.env_params = { color_grading = framing_frame_2_colors_randomized }
 			else return end
 			tweak_data.levels.framing_frame_2.flashlights_on = true
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/framing2.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/framing2.custom_xml", "custom_xml", "environments/pd2_env_night/pd2_env_night", "environment")
 		end
 		if level_id == "framing_frame_3" then
 			if envsmod._settings.color_gradings then
@@ -688,7 +711,7 @@ local rnd10 = math.floor(math.random() * 11)
 				tweak_data.levels.framing_frame_3.env_params = { color_grading = framing_frame_3_colors_randomized }
 			else return end
 			tweak_data.levels.framing_frame_3.flashlights_on = true
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/framing3.custom_xml", "custom_xml", "environments/pd2_env_framing_frame_stage_3/pd2_env_framing_frame_stage_3", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/framing3.custom_xml", "custom_xml", "environments/pd2_env_framing_frame_stage_3/pd2_env_framing_frame_stage_3", "environment")
 		end
 		if level_id == "peta2" then
 			if rnd2 == 0 then
@@ -732,29 +755,28 @@ local rnd10 = math.floor(math.random() * 11)
 		end
 		if level_id == "escape_park_day" then 
 			if rnd5 == 0 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_bluey.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_midday_alt.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 1 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cold.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cloudy.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 2 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_milk.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta2.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 3 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_orange.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 				elseif rnd5 == 4 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_default.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 			end
 		end
 		if level_id == "escape_street" then 
-			if rnd6 == 0 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_bluey.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd6 == 1 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cold.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd6 == 2 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_milk.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd6 == 3 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_orange.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd6 == 4 then
-				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank1.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
-				elseif rnd6 == 5 then
+			if rnd5 == 0 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_midday_alt.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 1 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_cloudy.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 2 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta2.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 3 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_beta.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
+				elseif rnd5 == 4 then
+				BeardLib:ReplaceScriptData(mod_path .. "scriptdata/branchbank_default.custom_xml", "custom_xml", "environments/pd2_env_mid_day/pd2_env_mid_day", "environment")
 			end
 		end
 		if level_id == "moon" then

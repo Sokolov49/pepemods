@@ -152,7 +152,7 @@ end
 Hooks:PostHook(MissionScript, "activate", "ParticleEffectInHellsIsland_Setup", function(self, ...)
 	for key, data in ipairs(effect_positions_jimmy) do
 		World:effect_manager():spawn({
-			effect = Idstring("effects/rain_fog"),
+			effect = Idstring("effects/fog_faint_white"),
 			position = data.position,
 			rotation = data.rotation
 		})
