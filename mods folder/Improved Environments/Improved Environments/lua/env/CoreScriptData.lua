@@ -684,7 +684,7 @@ local rnd10 = math.floor(math.random() * 11)
 				tweak_data.levels.gallery.env_params = { color_grading = gallery_colors_randomized }
 			else return end
 			tweak_data.levels.gallery.flashlights_on = true
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/framing1.custom_xml", "custom_xml", "environments/pd2_env_framing_frame_stage_2/pd2_env_framing_frame_stage_2", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/framing1.custom_xml", "custom_xml", "environments/pd2_env_framing_frame_stage_2/pd2_env_framing_frame_stage_2", "environment")
 		end
 		if level_id == "framing_frame_1" then
 			if envsmod._settings.color_gradings then
