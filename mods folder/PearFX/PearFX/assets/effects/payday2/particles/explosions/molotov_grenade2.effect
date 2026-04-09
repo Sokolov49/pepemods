@@ -77,7 +77,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="Sparks Sparkling" min_size="12" max_size="12" lifetime="30" random_start_time="false" start_time="0.3" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="100" grab_backfacing="false" timeline="">
+    <atom name="Sparks Sparkling" min_size="3" max_size="3" lifetime="30" random_start_time="false" start_time="0.3" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="100" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
             <boxrandomvelocity relative="effect" min="-5 -5 0" max="5 5 5"/>
@@ -98,7 +98,7 @@
             <constantacceleration relative="world" acceleration="0 0 25"/>
             <ager/>
             <anglevelocityintegrator/>
-            <teleporter name="" trigger_teleport="time" lifetime_input="constant" particle_lifetime="3" teleport_cap="10" current_position="true" channel="world" normal_variation="0" teleport_event="false" positioner="circle">
+            <teleporter name="" trigger_teleport="time" lifetime_input="constant" particle_lifetime="1" teleport_cap="10" current_position="true" channel="world" normal_variation="0" teleport_event="false" positioner="circle">
                 <circle radius="50" on_edge="false"/>
                 <normal min_velocity="50" max_velocity="100"/>
             </teleporter>
@@ -118,7 +118,7 @@
                 <opacity_keys loop="false">
                     <key t="0.068306013941765" v="0"/>
                     <key t="0.30054643750191" v="255"/>
-                    <key t="3.025" v="0"/>
+                    <key t="1.0245901346207" v="0"/>
                 </opacity_keys>
             </billboard>
         </visualizerstack>

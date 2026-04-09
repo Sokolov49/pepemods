@@ -22,23 +22,25 @@
 	<file name="effects/particles/explosions/smoke_grenade_smoke.effect" force="true" load="true"/>
 	<file name="effects/particles/explosions/smoke_screen.effect" force="true" load="true"/>
 	<file name="effects/payday2/environment/cs_gas_damage_area.effect" force="true" load="true"/>
+	<file name="effects/payday2/environment/cs_gas_sealing_vent.effect" force="true" load="true"/>
 	
-	<!-- Molotov -->
+	<!-- Fire -->
 	<file name="effects/payday2/particles/explosions/molotov_grenade.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_1s.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_7s.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_9s.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_endless.effect" force="true" load="true"/>
+	<file name="effects/payday2/environment/fire_big.effect" force="true" load="true"/>
 
 	<!-- Headshot parts -->
 	<file name="effects/helmet_glass_break.effect" force="true" load="true"/>
 	<file name="effects/blood_headshot.effect" force="true" load="true"/>
 	
 	<!-- Explosions -->
-	<file name="effects/explosion_grenade.effect" force="true" load="true"/>
-	<file name="effects/explosion_grenade_launcher.effect" force="true" load="true"/>
-	<file name="effects/explosion_incendiary.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/explosions/grenade_explosion.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/explosions/grenade_incendiary_explosion.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/impacts/shotgun_explosive_round.effect" force="true"/>
 	
 	<!-- Environment hits -->
 	<file name="effects/payday2/particles/impacts/concrete_impact_pd2.effect" force="true"/>
@@ -47,6 +49,11 @@
 	<file name="effects/payday2/particles/impacts/sheet_metal_impact_pd2.effect" force="true"/>
 	<file name="effects/payday2/particles/impacts/wood_impact_pd2.effect" force="true"/>
 	<file name="effects/payday2/particles/impacts/metal_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/marble_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/stone_explosion_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/metal_explosion_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/concrete_explosion_impact_pd2.effect" force="true"/>
+	<file name="effects/payday2/particles/impacts/dirt_explosion_impact_pd2.effect" force="true"/>
 	
 	<!-- FPS effect parts -->
 	<file name="effects/payday2/particles/weapons/fps_parts/big_fps_ball_flash.effect" force="true"/>
