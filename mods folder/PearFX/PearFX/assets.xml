@@ -67,7 +67,6 @@
 	<file name="effects/payday2/particles/weapons/fps_parts/fps_extra_long_flash.effect" force="true"/>
 	<file name="effects/payday2/particles/weapons/fps_parts/fps_fireball.effect" force="true"/>
 	<file name="effects/payday2/particles/weapons/fps_parts/fps_giant_flash.effect" force="true"/>
-	<file name="effects/payday2/particles/weapons/fps_parts/fps_medium_light.effect" force="true"/>
 	<file name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_blue_flash.effect" force="true"/>
 	<file name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_flash.effect" force="true"/>
 	<file name="effects/payday2/particles/weapons/fps_parts/fps_smoke_flash.effect" force="true"/>
@@ -77,6 +76,9 @@
 	<file name="effects/payday2/particles/weapons/fps_parts/third_big_flash_sniper.effect" force="true"/>
 	<file name="effects/payday2/particles/weapons/fps_parts/muzzle_smoke.effect" force="true"/>
 	<file name="effects/payday2/particles/weapons/fps_parts/muzzle_heat.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/parts/big_light.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/parts/medium_light.effect" force="true"/>
+	<file name="effects/payday2/particles/weapons/parts/uneven_light.effect" force="true"/>
 	
 	<!-- FPS gun effects -->
 	<file name="effects/payday2/particles/weapons/9mm_pistol_fps.effect" force="true"/>

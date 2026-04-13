@@ -7,9 +7,9 @@
             <worldtransform transform_rotations="false"/>
         </simulatorstack>
         <visualizerstack>
-            <light per_particle_age="false" shadow_caster="false" specular="true" color_input="constant" color="255 221.00001525879 187" multiplier_input="keys" far_range_input="constant" far_range="125">
+            <light per_particle_age="false" shadow_caster="false" specular="false" color_input="constant" color="234.00001525879 141 95" multiplier_input="keys" far_range_input="constant" far_range="435">
                 <multiplier_keys loop="false">
-                    <key t="0" v="0.003000000026077"/>
+                    <key t="0" v="0.009"/>
                     <key t="0.050000000745058" v="0"/>
                 </multiplier_keys>
             </light>

@@ -156,11 +156,11 @@
             </scaledvelocityintegrator>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="match" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 119.00000762939 66" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="constant" uv_offset="0.25 0.5">
+            <billboard texture="effects/textures/effects_atlas" intensity="monitor" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 119.00000762939 66" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="constant" uv_offset="0.25 0.5">
                 <size_scale_keys loop="false">
                     <key t="0.20316027104855" v="0 0"/>
-                    <key t="0.25959399342537" v="1 1"/>
-                    <key t="2" v="2.5 2.5"/>
+                    <key t="0.25959399342537" v="1.7000000476837 1.7000000476837"/>
+                    <key t="2" v="4 4"/>
                 </size_scale_keys>
                 <opacity_keys loop="false">
                     <key t="0.25959399342537" v="0"/>
