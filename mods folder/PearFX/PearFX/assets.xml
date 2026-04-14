@@ -21,6 +21,7 @@
 	<!-- Smoke -->
 	<file name="effects/particles/explosions/smoke_grenade_smoke.effect" force="true" load="true"/>
 	<file name="effects/particles/explosions/smoke_screen.effect" force="true" load="true"/>
+	<file name="effects/particles/explosions/poison_gas.effect" force="true" load="true"/>
 	<file name="effects/payday2/environment/cs_gas_damage_area.effect" force="true" load="true"/>
 	<file name="effects/payday2/environment/cs_gas_sealing_vent.effect" force="true" load="true"/>
 	
