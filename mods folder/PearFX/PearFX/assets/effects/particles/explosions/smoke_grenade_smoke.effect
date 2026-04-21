@@ -19,7 +19,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="130 124.00000762939 128" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="flashlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="600 600"/>
                     <key t="2.4440619945526" v="750 650"/>
@@ -97,7 +97,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="flashlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="400 400"/>
                     <key t="2.4208569526672" v="400 300"/>
@@ -136,7 +136,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="400 400"/>
                     <key t="2.4208569526672" v="400 300"/>
@@ -175,7 +175,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="400 400"/>
                     <key t="2.4208569526672" v="400 300"/>
@@ -214,7 +214,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="400 400"/>
                     <key t="2.4208569526672" v="400 300"/>
@@ -253,7 +253,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="flashlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="600 600"/>
                     <key t="2.4440619945526" v="750 650"/>
@@ -292,7 +292,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="flashlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="600 600"/>
                     <key t="2.4440619945526" v="750 650"/>
@@ -331,7 +331,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="flashlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="600 600"/>
                     <key t="2.4440619945526" v="750 650"/>
@@ -370,7 +370,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="flashlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="600 600"/>
                     <key t="2.4440619945526" v="750 650"/>
@@ -409,7 +409,7 @@
             <rotationbyvelocity velocity="360"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0" v="600 600"/>
                     <key t="2.4440619945526" v="750 650"/>
@@ -450,7 +450,7 @@
             <variableacceleration name="" relative="world" acceleration="0 0 0"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="monitor" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="scaled_channel" color_input="constant" color="60.000003814697 55.000003814697 62.000003814697" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="monitor" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.75" per_particle_age="true" size_input="scaled_channel" color_input="constant" color="75 75 75" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="channel">
                 <size_scale_keys loop="false">
                     <key t="0.13729977607727" v="0.5 0.5"/>
                     <key t="0.38240918517113" v="2 2"/>

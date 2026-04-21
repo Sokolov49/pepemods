@@ -2,6 +2,9 @@
 <assets base_path="assets/">
 	<!-- Menu -->
 	<file name="effects/payday2/menu/moneyburn_menu.effect" force="true" load="true"/>
+	
+	<!-- Decals -->
+	<file name="settings/decals.decals" force="true" load="true"/>
 
 	<!-- Textures -->
 	<file name="effects/payday2/textures/shells/shell_9mm.texture" force="true" load="true"/>
@@ -17,6 +20,9 @@
 	<file name="effects/textures/bullet_hit/e_fire_static_loop_infamy_df.texture" force="true" load="true"/>
 	<file name="effects/textures/bullet_hit/e_muzzle_flash03_mgsj2.texture" force="true" load="true"/>
 	<file name="effects/textures/misc/dollar_bill_effect_df_df.texture" force="true" load="true"/>
+	
+	<file name="effects/decals/decals_atlas_pdth_df.texture" force="true" load="true"/>
+	<file name="effects/decals/pdth_decal_nm.texture" force="true" load="true"/>
 	
 	<!-- Smoke -->
 	<file name="effects/particles/explosions/smoke_grenade_smoke.effect" force="true" load="true"/>
@@ -42,6 +48,12 @@
 	<file name="effects/payday2/particles/explosions/grenade_explosion.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/explosions/grenade_incendiary_explosion.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/impacts/shotgun_explosive_round.effect" force="true"/>
+	<file name="effects/explosion_grenade.effect" force="true" load="true"/>
+	<file name="effects/explosion_grenade_launcher.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/emp/emp_explosion.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/electric/electric_sparks_turret.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/electric/electric_sparks_turret_50%.effect" force="true" load="true"/>
+	<file name="effects/payday2/particles/electric/electric_sparks_turret_dead.effect" force="true" load="true"/>
 	
 	<!-- Environment hits -->
 	<file name="effects/payday2/particles/impacts/concrete_impact_pd2.effect" force="true"/>
