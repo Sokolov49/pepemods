@@ -1,0 +1,6 @@
+<mod name="OriginalPack3">
+    <Hooks directory="lua">
+		<hook source_file="lib/tweak_data/moneytweakdata"							file="moneytweakdata.lua"/>
+		<hook source_file="lib/managers/moneymanager"								file="moneymanager.lua"/>
+	</Hooks>
+</mod>
