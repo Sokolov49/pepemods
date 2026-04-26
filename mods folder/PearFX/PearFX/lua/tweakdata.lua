@@ -2,7 +2,6 @@ if not tweak_data then return end
 tweak_data.projectiles.frag.effect_name = "effects/explosion_grenade"
 tweak_data.projectiles.frag_com.effect_name = "effects/explosion_grenade"
 tweak_data.projectiles.launcher_frag.effect_name = "effects/explosion_grenade_launcher"
-tweak_data.projectiles.launcher_frag_m79.effect_name = "effects/explosion_grenade_launcher"
 tweak_data.projectiles.launcher_m203.effect_name = "effects/explosion_grenade_launcher"
 tweak_data.projectiles.launcher_frag_m32.effect_name = "effects/explosion_grenade_launcher"
 tweak_data.projectiles.launcher_incendiary_m32.effect_name = "effects/explosion_incendiary"

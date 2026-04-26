@@ -55,6 +55,7 @@
 	<file name="effects/payday2/particles/electric/electric_sparks_turret.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/electric/electric_sparks_turret_50%.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/electric/electric_sparks_turret_dead.effect" force="true" load="true"/>
+	<file name="effects/particles/explosions/explosion_flash_grenade.effect" force="true" load="true"/>
 	
 	<!-- Environment hits -->
 	<file name="effects/payday2/particles/impacts/concrete_impact_pd2.effect" force="true"/>

@@ -152,15 +152,15 @@
             <velocityintegrator channel="world"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/opacity_atlas_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_add" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="155 117.00000762939 84" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.5 0.25" uv_offset_input="constant" uv_offset="0 0.5625">
+            <billboard texture="effects/textures/opacity_atlas_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="155 117.00000762939 84" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.5 0.25" uv_offset_input="constant" uv_offset="0 0.5625">
                 <size_scale_keys loop="false">
                     <key t="0" v="1 1"/>
                     <key t="2" v="2 2"/>
                 </size_scale_keys>
                 <opacity_keys loop="false">
                     <key t="0" v="0"/>
-                    <key t="0.8" v="165"/>
-                    <key t="1.2" v="125"/>
+                    <key t="0.8" v="37"/>
+                    <key t="1.2" v="75"/>
                     <key t="2" v="0"/>
                 </opacity_keys>
                 <rotation_scale_keys loop="false">
