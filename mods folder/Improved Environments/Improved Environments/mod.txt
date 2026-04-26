@@ -6,7 +6,7 @@
   "image" : "mod.png",
   "priority" : 23,
   "blt_version" : 2,
-  "version" : "1.9999999",
+  "version" : "2",
   "updates" : [{
 	"identifier" : "improved_environments",
 	"host": {

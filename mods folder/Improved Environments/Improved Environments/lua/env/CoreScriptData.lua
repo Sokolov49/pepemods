@@ -596,13 +596,13 @@ local rnd10 = math.floor(math.random() * 11)
 		end
 		if level_id == "spa" then
 			if envsmod._settings.color_gradings then
-				local spa_colors = { 'color_nice_classic', 'color_xxxgen', 'color_bhd_classic', 'color_matrix_classic', 'color_heat_classic', 'color_payday_classic' }
+				local spa_colors = { 'color_matrix', 'color_xxxgen', 'color_bhd_classic', 'color_matrix_classic', 'color_heat_classic', 'color_payday_classic' }
 				local spa_colors_randomized = spa_colors[ math.random( 1, #spa_colors ) ]
 				tweak_data.levels.spa.env_params = { color_grading = spa_colors_randomized }
 			else return end
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/brooklyn10-10.custom_xml", "custom_xml", "environments/pd2_env_spa/pd2_env_spa_basement", "environment")
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/brooklyn10-10.custom_xml", "custom_xml", "environments/pd2_env_spa/pd2_env_spa_a", "environment")
-			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/legacy/brooklyn10-10.custom_xml", "custom_xml", "environments/pd2_env_spa/pd2_env_spa_outside", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/brooklyn10-10.custom_xml", "custom_xml", "environments/pd2_env_spa/pd2_env_spa_basement", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/brooklyn10-10.custom_xml", "custom_xml", "environments/pd2_env_spa/pd2_env_spa_a", "environment")
+			BeardLib:ReplaceScriptData(mod_path .. "scriptdata/brooklyn10-10.custom_xml", "custom_xml", "environments/pd2_env_spa/pd2_env_spa_outside", "environment")
 		end
 		if level_id == "trai" then
 			if envsmod._settings.color_gradings then
