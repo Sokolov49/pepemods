@@ -140,4 +140,14 @@
 	<file name="effects/particles/weapons/shotgun_streak_buck.effect" force="true"/>
 	<file name="effects/particles/weapons/shotgun_streak_db.effect" force="true"/>
 	<file name="effects/particles/weapons/shotgun_streak_flech.effect" force="true"/>
+	
+	<!-- Flare Gun -->
+	<file name="effects/particles/flare_floatie.effect"/>
+	<file name="effects/particles/flaregun_explosion_regular.effect"/>
+	<file name="effects/particles/flaregun_explosion_sky.effect"/>
+	
+	<!-- Flamethrower -->
+	<file name="effects/particles/flamethrower.effect"/>
+	<file name="effects/particles/flamethrower_rare.effect"/>
+	<file name="effects/particles/flamethrower_welldone.effect"/>
 </assets>

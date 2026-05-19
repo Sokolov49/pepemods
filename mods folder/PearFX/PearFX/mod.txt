@@ -7,7 +7,7 @@
 	"contact" : "",
 	"color" : "128 0 0",
 	"image" : "mod.png",
-  	"version" : "0.20",
+  	"version" : "0.21",
  	"updates" : [{
 	"identifier" : "pear_effects",
 	"host": { "meta": "https://raw.githubusercontent.com/Sokolov49/pepemods/refs/heads/main/mods%20folder/PearFX/meta.json", }

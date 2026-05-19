@@ -1,0 +1,76 @@
+<effect force_synch="false">
+    <atom name="flare_glow" min_size="1" max_size="1" lifetime="30" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="0.5" fade_in_length="50" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <localboxrandomposition min="0 0 0" max="0 0 0"/>
+            <boxrandomvelocity relative="effect" min="0 0 -900" max="0 0 -900"/>
+        </initializerstack>
+        <simulatorstack>
+            <worldtransform transform_rotations="false"/>
+            <constantacceleration relative="world" acceleration="0 0 -4000"/>
+            <velocityintegrator channel="world"/>
+            <windacceleration radius="0.005" mass="0.003"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/textures/effects_atlas" intensity="searchlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out_add" origo="0.5 0.5" per_particle_age="false" size_input="keys" color_input="constant" color="249.00001525879 90 51.000003814697" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 1 0" uv_size="0.0625 0.0625" uv_offset_input="constant" uv_offset="0.8125 0.75">
+                <size_keys loop="false">
+                    <key t="0" v="500 300"/>
+                    <key t="10" v="250 150"/>
+                    <key t="20" v="125 75"/>
+                    <key t="30" v="65 35"/>
+                </size_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="25"/>
+                    <key t="30" v="0"/>
+                </opacity_keys>
+            </billboard>
+            <billboard texture="effects/textures/effects_atlas" intensity="searchlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out_add" origo="0.5 0.5" per_particle_age="false" size_input="keys" color_input="constant" color="221.00001525879 35 33" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 1 0" uv_size="0.0625 0.0625" uv_offset_input="constant" uv_offset="0.8125 0.75">
+                <size_keys loop="true">
+                    <key t="0" v="400 600"/>
+                    <key t="0.08" v="20000 10000"/>
+                    <key t="20" v="10000 6000"/>
+                    <key t="30" v="5000 4000"/>
+                </size_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="165"/>
+                    <key t="30" v="0"/>
+                </opacity_keys>
+            </billboard>
+            <billboard texture="effects/textures/effects_atlas" intensity="searchlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out_add" origo="0.5 0.5" per_particle_age="false" size_input="keys" color_input="constant" color="164 64 64" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 1 0" uv_size="0.0625 0.0625" uv_offset_input="constant" uv_offset="0.8125 0.75">
+                <size_keys loop="true">
+                    <key t="0" v="10 10"/>
+                    <key t="0.022471999749541" v="2000 200"/>
+                    <key t="0.026966292411089" v="20 10"/>
+                    <key t="0.035999998450279" v="50 50"/>
+                </size_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="100"/>
+                    <key t="30" v="0"/>
+                </opacity_keys>
+            </billboard>
+            <billboard texture="effects/textures/effects_atlas" intensity="searchlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_geometry_fade_out_add" origo="0.5 0.5" per_particle_age="false" size_input="keys" color_input="constant" color="164 64 64" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 1 0" uv_size="0.0625 0.0625" uv_offset_input="constant" uv_offset="0.8125 0.75">
+                <size_keys loop="true">
+                    <key t="0" v="10 10"/>
+                    <key t="0.022471999749541" v="200 1000"/>
+                    <key t="0.026966292411089" v="20 10"/>
+                    <key t="0.035999998450279" v="50 50"/>
+                </size_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="80"/>
+                    <key t="30" v="0"/>
+                </opacity_keys>
+            </billboard>
+            <light per_particle_age="false" shadow_caster="true" specular="true" color_input="constant" color="221.00001525879 0 0" multiplier_input="keys" far_range_input="keys">
+                <multiplier_keys loop="false">
+                    <key t="0" v="0"/>
+                    <key t="0.12" v="0.01"/>
+                    <key t="30" v="0"/>
+                </multiplier_keys>
+                <far_range_keys loop="false">
+                    <key t="0" v="0"/>
+                    <key t="0.12" v="16000"/>
+                    <key t="30" v="2400"/>
+                </far_range_keys>
+            </light>
+        </visualizerstack>
+    </atom>
+</effect>
