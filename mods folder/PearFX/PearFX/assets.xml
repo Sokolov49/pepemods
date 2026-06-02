@@ -5,7 +5,16 @@
 	
 	<!-- Decals -->
 	<file name="settings/decals.decals" force="true" load="true"/>
-
+	
+	<!-- Smooth cone lights -->
+	<file name="units/world/street/street_lights/cone_light_df.texture" force="true"/>
+	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_blue_df.texture" force="true"/>
+	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_blue_v2_df.texture" force="true"/>
+	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_df.texture" force="true"/>
+	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange_df.texture" force="true"/>
+	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange_v2_df.texture" force="true"/>
+	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_debris_df.texture" force="true"/>
+	
 	<!-- Textures -->
 	<file name="effects/payday2/textures/shells/shell_9mm.texture" force="true" load="true"/>
 	<file name="effects/payday2/textures/shells/shell_127.texture" force="true" load="true"/>
@@ -20,9 +29,11 @@
 	<file name="effects/textures/bullet_hit/e_fire_static_loop_infamy_df.texture" force="true" load="true"/>
 	<file name="effects/textures/bullet_hit/e_muzzle_flash03_mgsj2.texture" force="true" load="true"/>
 	<file name="effects/textures/misc/dollar_bill_effect_df_df.texture" force="true" load="true"/>
+	<file name="textures/largebeam_256.dds"/>
 	
 	<file name="effects/decals/decals_atlas_pdth_df.texture" force="true" load="true"/>
 	<file name="effects/decals/pdth_decal_nm.texture" force="true" load="true"/>
+	<file name="units/lights/spot_light_projection_textures/spotprojection_11_flashlight_df.texture"/>
 	
 	<!-- Smoke -->
 	<file name="effects/particles/explosions/smoke_grenade_smoke.effect" force="true" load="true"/>
@@ -40,6 +51,7 @@
 	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_9s.effect" force="true" load="true"/>
 	<file name="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_endless.effect" force="true" load="true"/>
 	<file name="effects/payday2/environment/fire_big.effect" force="true" load="true"/>
+	<file name="effects/payday2/environment/fire.effect" force="true" load="true"/>
 
 	<!-- Headshot parts -->
 	<file name="effects/helmet_glass_break.effect" force="true" load="true"/>
@@ -150,4 +162,10 @@
 	<file name="effects/particles/flamethrower.effect"/>
 	<file name="effects/particles/flamethrower_rare.effect"/>
 	<file name="effects/particles/flamethrower_welldone.effect"/>
+	
+	<!-- Flashlight -->
+	<file name="effects/particles/weapons/flashlight/flashlight.effect"/>
+	<file name="effects/particles/weapons/flashlight/flashlight_multicolor.effect"/>
+	<file name="effects/particles/weapons/flashlight/fp_flashlight.effect"/>
+	<file name="effects/particles/weapons/flashlight/fp_flashlight_multicolor.effect"/>
 </assets>
