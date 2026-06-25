@@ -97,11 +97,11 @@
 					parent = head_object_get		
 				})
 				world_g:effect_manager():spawn({
-					effect = ids_func("effects/payday2/particles/impacts/saw_metal_impact_pd2"),
+					effect = ids_func("effects/helmet_spark"),
 					parent = head_object_get		
 				})
 				world_g:effect_manager():spawn({
-					effect = ids_func("effects/blood_headshot"),
+					effect = ids_func("effects/regular_headshot"),
 					parent = head_object_get		
 				})	
 				sound_ext:play("swat_heavy_visor_shatter", nil, nil)
@@ -113,11 +113,11 @@
 					parent = head_object_get		
 				})
 				world_g:effect_manager():spawn({
-					effect = ids_func("effects/payday2/particles/impacts/saw_metal_impact_pd2"),
+					effect = ids_func("effects/helmet_spark"),
 					parent = head_object_get		
 				})
 				world_g:effect_manager():spawn({
-					effect = ids_func("effects/blood_headshot"),
+					effect = ids_func("effects/regular_headshot"),
 					parent = head_object_get		
 				})	
 			end

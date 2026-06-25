@@ -1,0 +1,181 @@
+<effect force_synch="false">
+    <use_random>
+		<effect name="effects/blood_chunks_few"/>
+        <effect name="effects/payday2/particles/weapons/parts/empty"/>
+		<effect name="effects/blood_chunks_lots"/>
+		<effect name="effects/payday2/particles/weapons/parts/empty"/>
+		<effect name="effects/skull_chunks"/>
+    </use_random>
+	<use name="effects/payday2/particles/impacts/blood/blood_distance_dust_med"/>
+    <atom name="splatter" min_size="1" max_size="1" lifetime="0.22" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="freeze" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
+            <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
+            <boxrandomangle min="-0.2" max="0.5"/>
+            <boxrandomrotation relative="effect" min="-10 -10 1" max="10 10 1" min_rot="0" max_rot="365"/>
+        </initializerstack>
+        <simulatorstack>
+            <velocityintegrator channel="world"/>
+            <constantacceleration relative="effect" acceleration="0 0 0"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_01_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 0.5" per_particle_age="false" size_input="constant" size="110 110" color_input="constant" color="255 0 0" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.1666 0.333" uv_offset_input="keys" frame_start="0 0.333" primary_step_direction="+x" secondary_step_direction="+y" num_frames="6" fps="25" loop="false">
+                <opacity_keys loop="false">
+                    <key t="0" v="255"/>
+                    <key t="0.32013767957687" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="spray_side_front1" min_size="2" max_size="2" lifetime="0.6" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-3 0 15" max="3 0 15"/>
+            <boxrandomangle min="0" max="0"/>
+            <boxrandomrotation relative="effect" min="-100 -100 1" max="100 100 1" min_rot="0" max_rot="0"/>
+            <centervelocity channel="world" center="0 2 15" direction="from" min="1" max="1" jitter="0"/>
+            <boxrandomaspectsize size="2 1" min="0.4" max="1.5"/>
+        </initializerstack>
+        <simulatorstack>
+            <rotationbyvelocity velocity="9999"/>
+            <scaledvelocityintegrator channel="world" per_particle_age="false">
+                <scale_keys loop="false">
+                    <key t="0" v="0"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <constantacceleration relative="world" acceleration="0 0 -0.3"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_02_df" intensity="reddot" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 1" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <size_scale_keys loop="false">
+                    <key t="0" v="1 1"/>
+                    <key t="0.18217800557613" v="25 75"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0.023762376978993" v="255"/>
+                    <key t="0.4" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="spray_side_front2" min_size="2" max_size="2" lifetime="0.6" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-3 0 15" max="3 0 15"/>
+            <boxrandomangle min="0" max="0"/>
+            <boxrandomrotation relative="effect" min="-100 -100 1" max="100 100 1" min_rot="0" max_rot="0"/>
+            <centervelocity channel="world" center="0 2 15" direction="from" min="1" max="1" jitter="0"/>
+            <boxrandomaspectsize size="2 1" min="0.4" max="1.5"/>
+        </initializerstack>
+        <simulatorstack>
+            <rotationbyvelocity velocity="9999"/>
+            <scaledvelocityintegrator channel="world" per_particle_age="false">
+                <scale_keys loop="false">
+                    <key t="0" v="0"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <constantacceleration relative="world" acceleration="0 0 -0.3"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_02_df" intensity="reddot" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 1" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <size_scale_keys loop="false">
+                    <key t="0" v="1 1"/>
+                    <key t="0.18217800557613" v="25 75"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0.24950495362282" v="255"/>
+                    <key t="0.4" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="spray_back1" min_size="2" max_size="2" lifetime="0.6" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-3 0 15" max="3 0 15"/>
+            <boxrandomangle min="0" max="0"/>
+            <boxrandomrotation relative="effect" min="-100 -100 1" max="100 100 1" min_rot="0" max_rot="0"/>
+            <centervelocity channel="world" center="0 -2 15" direction="from" min="1" max="1" jitter="0"/>
+            <boxrandomaspectsize size="2 1" min="0.4" max="1.5"/>
+        </initializerstack>
+        <simulatorstack>
+            <rotationbyvelocity velocity="9999"/>
+            <scaledvelocityintegrator channel="world" per_particle_age="false">
+                <scale_keys loop="false">
+                    <key t="0" v="0"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <constantacceleration relative="world" acceleration="0 0 -0.3"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_02_df" intensity="reddot" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 1" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <size_scale_keys loop="false">
+                    <key t="0" v="1 1"/>
+                    <key t="0.18217800557613" v="50 150"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0.087128713726997" v="255"/>
+                    <key t="0.4" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="spray_back2" min_size="2" max_size="2" lifetime="0.6" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-3 0 15" max="3 0 15"/>
+            <boxrandomangle min="0" max="0"/>
+            <boxrandomrotation relative="effect" min="-100 -100 1" max="100 100 1" min_rot="0" max_rot="0"/>
+            <centervelocity channel="world" center="0 -2 15" direction="from" min="1" max="1" jitter="0"/>
+            <boxrandomaspectsize size="2 1" min="0.4" max="1.5"/>
+        </initializerstack>
+        <simulatorstack>
+            <rotationbyvelocity velocity="9999"/>
+            <scaledvelocityintegrator channel="world" per_particle_age="false">
+                <scale_keys loop="false">
+                    <key t="0" v="0"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <constantacceleration relative="world" acceleration="0 0 -0.3"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_02_df" intensity="reddot" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 1" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <size_scale_keys loop="false">
+                    <key t="0" v="1 1"/>
+                    <key t="0.18217800557613" v="50 150"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0.023762376978993" v="255"/>
+                    <key t="0.4" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="spray_up" min_size="1" max_size="1" lifetime="2" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-3 0 15" max="3 0 15"/>
+            <boxrandomangle min="0" max="0"/>
+            <boxrandomrotation relative="effect" min="-100 -100 1" max="100 100 1" min_rot="0" max_rot="0"/>
+            <centervelocity channel="world" center="2 -2 0" direction="from" min="1" max="1" jitter="0"/>
+            <boxrandomaspectsize size="2 1" min="1" max="1.5"/>
+        </initializerstack>
+        <simulatorstack>
+            <rotationbyvelocity velocity="9999"/>
+            <scaledvelocityintegrator channel="world" per_particle_age="false">
+                <scale_keys loop="false">
+                    <key t="0" v="0"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <constantacceleration relative="world" acceleration="0 0 -0.3"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_02_df" intensity="reddot" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 1" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <size_scale_keys loop="false">
+                    <key t="0" v="1 1"/>
+                    <key t="0.19009901583195" v="50 150"/>
+                    <key t="0.90016919374466" v="70 170"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0.023762376978993" v="255"/>
+                    <key t="0.4" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>

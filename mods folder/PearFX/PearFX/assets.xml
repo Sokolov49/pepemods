@@ -15,6 +15,15 @@
 	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange_v2_df.texture" force="true"/>
 	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_debris_df.texture" force="true"/>
 	
+	<!-- Blood -->
+	<file name="effects/payday2/particles/impacts/blood/blood_impact_a.effect"/>
+	<file name="effects/particles/bullet_hit/flesh/bullet_hit_blood.effect"/>
+	<file name="effects/particles/bullet_hit/flesh/bullet_impact_flesh_00.effect"/>
+	<file name="effects/particles/bullet_hit/flesh/bullet_impact_flesh_01.effect"/>
+	<file name="effects/particles/bullet_hit/flesh/bullet_impact_flesh_02.effect"/>
+	<file name="effects/particles/bullet_hit/flesh/bullet_impact_flesh_03.effect"/>
+	<file name="effects/particles/bullet_hit/flesh/bullet_impact_flesh_04.effect"/>
+	
 	<!-- Textures -->
 	<file name="effects/payday2/textures/shells/shell_9mm.texture" force="true" load="true"/>
 	<file name="effects/payday2/textures/shells/shell_127.texture" force="true" load="true"/>
@@ -30,6 +39,10 @@
 	<file name="effects/textures/bullet_hit/e_muzzle_flash03_mgsj2.texture" force="true" load="true"/>
 	<file name="effects/textures/misc/dollar_bill_effect_df_df.texture" force="true" load="true"/>
 	<file name="textures/largebeam_256.dds"/>
+	<file name="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_01_df.texture"/>
+	<file name="effects/particles/bullet_hit/flesh/textures/e_bullet_impact_blood_02_df.texture"/>
+	<file name="effects/particles/bullet_hit/flesh/textures/e_skull_chunks_01_df.texture"/>
+	<file name="effects/particles/bullet_hit/flesh/textures/e_head_chunks_01_df.texture"/>
 	
 	<file name="effects/decals/decals_atlas_pdth_df.texture" force="true" load="true"/>
 	<file name="effects/decals/pdth_decal_nm.texture" force="true" load="true"/>
@@ -54,8 +67,14 @@
 	<file name="effects/payday2/environment/fire.effect" force="true" load="true"/>
 
 	<!-- Headshot parts -->
-	<file name="effects/helmet_glass_break.effect" force="true" load="true"/>
-	<file name="effects/blood_headshot.effect" force="true" load="true"/>
+	<file name="effects/helmet_glass_break.effect"/>
+	<file name="effects/blood_headshot.effect"/>
+	<file name="effects/skull_chunks.effect"/>
+	<file name="effects/blood_chunks_few.effect"/>
+	<file name="effects/blood_chunks_lots.effect"/>
+	<file name="effects/sniper_headshot.effect"/>
+	<file name="effects/sniper_heavy_headshot.effect"/>
+	<file name="effects/regular_headshot.effect"/>
 	
 	<!-- Explosions -->
 	<file name="effects/payday2/particles/explosions/grenade_explosion.effect" force="true" load="true"/>
