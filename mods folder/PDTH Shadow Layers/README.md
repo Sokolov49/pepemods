@@ -1,0 +1,1 @@
+# Reduces shadow resolution to 1024, increases draw distance, looks generally better than whatever PD2 does
