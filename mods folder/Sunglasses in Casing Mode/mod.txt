@@ -1,0 +1,13 @@
+{
+	"name": "Sunglasses in Casing Mode",
+	"description": "Big Bank Trailer",
+	"author": "sokolov based on Offyerrocker code",
+	"version": "1.0",
+	"blt_version": 2,
+	"hooks": [
+		{
+			"hook_id": "lib/units/beings/player/playerinventory",
+			"script_path": "dupa.lua"
+		}
+	]
+}
