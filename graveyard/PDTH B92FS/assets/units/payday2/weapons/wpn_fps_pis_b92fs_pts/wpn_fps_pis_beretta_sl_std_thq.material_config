@@ -1,0 +1,6 @@
+<materials version="3" group="weapon_b92fs">
+    <material name="std_slide" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_sl_std_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_sl_std_nm" mip="1"/>
+    </material>	
+</materials>

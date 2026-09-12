@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<assets base_path="assets/">
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/beretta_df.texture" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/beretta_nm.texture" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/weapon_il_orange_il.texture" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/weapon_il_green_il.texture" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_body_beretta.model" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_m_std.model" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_o_std.model" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_sl_std.model" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_body_beretta.object" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_m_std.object" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_o_std.object" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_sl_std.object" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_g_ergo.object" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_g_std.object" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_body_beretta.material_config" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_body_beretta_thq.material_config" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_m_std.material_config" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_o_std.material_config" />
+	<file name="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_sl_std.material_config" />
+</assets>

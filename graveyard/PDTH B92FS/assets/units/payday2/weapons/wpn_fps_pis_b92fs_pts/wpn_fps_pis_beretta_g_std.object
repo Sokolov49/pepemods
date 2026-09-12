@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_wpn_fps_pis_beretta_g_std" materials="units/payday2/weapons/wpn_fps_pis_b92fs_pts/wpn_fps_pis_beretta_g_std" />
+    <graphics>
+        <object name="g_std" enabled="false" />
+    </graphics>
+</dynamic_object>

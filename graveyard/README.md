@@ -1,0 +1,1 @@
+# here are mods that partially-work but i am too dumb to resolve their issues but dont want to completely trash the efforts put into them
