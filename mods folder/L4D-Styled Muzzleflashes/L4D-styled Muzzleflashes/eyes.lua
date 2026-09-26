@@ -69,7 +69,7 @@ function RaycastWeaponBase:_spawn_muzzle_flash(weap_id, setup_data)
 	end
 	
 	local is_player = self._setup.user_unit == managers.player:player_unit()
-	if not is_player or self:_get_primary_category(weap_id) == "bow" or self:_get_primary_category(weap_id) == "saw" or self:_get_primary_category(weap_id) == "grenade_launcher" then
+	if not is_player or self:_get_primary_category(weap_id) == "bow" or self:_get_primary_category(weap_id) == "saw" or self:_get_primary_category(weap_id) == "grenade_launcher" or self:_get_primary_category(weap_id) == "crossbow" then
 		return
 	else
 		self._light = World:create_light("spot|specular|plane_projection", is_silenced and silenced_texture or new_muzzleflash_texture)
