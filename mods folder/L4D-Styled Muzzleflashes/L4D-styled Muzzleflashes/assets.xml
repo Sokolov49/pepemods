@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assets base_path="assets/">
+	<file name="effects/textures/weapons/muzzleflash1.dds"/>
+	<file name="effects/textures/weapons/muzzleflash2.dds"/>
+	<file name="effects/textures/weapons/muzzleflash3.dds"/>
+	<file name="effects/textures/weapons/muzzleflash4.dds"/>
+</assets>

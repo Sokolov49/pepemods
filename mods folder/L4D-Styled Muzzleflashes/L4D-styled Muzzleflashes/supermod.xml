@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<mod name="L4D_Muzzleflashes">
+	<:include src="assets.xml" />
+</mod>
