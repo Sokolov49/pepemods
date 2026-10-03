@@ -65,7 +65,7 @@ function RaycastWeaponBase:_spawn_muzzle_flash(weap_id, setup_data)
 	if get_fire_rate > 0.04 and get_fire_rate < 0.100 then
 		delay = get_fire_rate - 0.015 -- despite of this, delayed calls may still be unable to fully keep up with 1200+ rof guns
 	elseif get_fire_rate > 0.100 then
-		delay = 0.066
+		delay = 0.03
 	end
 	
 	local is_player = self._setup.user_unit == managers.player:player_unit()
@@ -76,7 +76,7 @@ function RaycastWeaponBase:_spawn_muzzle_flash(weap_id, setup_data)
 		self._light:set_multiplier(is_silenced and 0.5 or 1)
 		self._light:set_spot_angle_end(is_silenced and 40 or 100)
 		self._light:set_far_range(1300)
-		self._a_flashlight_obj = self._unit:get_object(Idstring("a_b"))
+		self._a_flashlight_obj = self._unit:get_object(Idstring("fire"))
 		self._light:link(self._a_flashlight_obj)
 		self._light:set_rotation(Rotation(self._a_flashlight_obj:rotation():z(), -self._a_flashlight_obj:rotation():x(), -self._a_flashlight_obj:rotation():y()))
 		self._light:set_enable(true)
