@@ -46,7 +46,6 @@
 	
 	<file name="effects/decals/decals_atlas_pdth_df.texture" force="true" load="true"/>
 	<file name="effects/decals/pdth_decal_nm.texture" force="true" load="true"/>
-	<file name="units/lights/spot_light_projection_textures/spotprojection_11_flashlight_df.texture"/>
 	
 	<!-- Smoke -->
 	<file name="effects/particles/explosions/smoke_grenade_smoke.effect" force="true" load="true"/>
