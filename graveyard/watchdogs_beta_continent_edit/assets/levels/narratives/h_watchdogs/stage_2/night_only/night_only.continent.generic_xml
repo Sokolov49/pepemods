@@ -1,0 +1,449 @@
+<generic_scriptdata type="table">
+	<entry key="editor_groups" type="table">
+		<entry index="1" type="table">
+			<entry key="continent" type="string" value="night_only"/>
+			<entry key="name" type="string" value="night_cone"/>
+			<entry key="reference" type="number" value="500011"/>
+			<entry key="units" type="table">
+				<entry index="1" type="number" value="500011"/>
+				<entry index="2" type="number" value="500010"/>
+			</entry>
+		</entry>
+	</entry>
+	<entry key="statics" type="table">
+		<entry index="1" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_small"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_small_004"/>
+				<entry key="position" type="vector3" value="2644 206 386.006"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -1.19209e-07"/>
+				<entry key="unit_id" type="number" value="500006"/>
+			</entry>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_small"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_small_001"/>
+				<entry key="position" type="vector3" value="3806 -149 724.837"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -8.9407e-08"/>
+				<entry key="unit_id" type="number" value="500007"/>
+			</entry>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_small"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_small_005"/>
+				<entry key="position" type="vector3" value="3811 549 724.837"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="500008"/>
+			</entry>
+		</entry>
+		<entry index="4" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_001"/>
+				<entry key="position" type="vector3" value="1099 -785 1338"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="500011"/>
+			</entry>
+		</entry>
+		<entry index="5" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_001"/>
+				<entry key="position" type="vector3" value="1097 -782 1350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="500010"/>
+			</entry>
+		</entry>
+		<entry index="6" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_002"/>
+				<entry key="position" type="vector3" value="816 -501 1338"/>
+				<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500000"/>
+			</entry>
+		</entry>
+		<entry index="7" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_002"/>
+				<entry key="position" type="vector3" value="813 -503 1350"/>
+				<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500001"/>
+			</entry>
+		</entry>
+		<entry index="8" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_003"/>
+				<entry key="position" type="vector3" value="1102 -216 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -1.19209e-07"/>
+				<entry key="unit_id" type="number" value="500002"/>
+			</entry>
+		</entry>
+		<entry index="9" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_003"/>
+				<entry key="position" type="vector3" value="1104 -219 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -1.19209e-07"/>
+				<entry key="unit_id" type="number" value="500003"/>
+			</entry>
+		</entry>
+		<entry index="10" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_004"/>
+				<entry key="position" type="vector3" value="1386 -499 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500004"/>
+			</entry>
+		</entry>
+		<entry index="11" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_004"/>
+				<entry key="position" type="vector3" value="1389 -497 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500005"/>
+			</entry>
+		</entry>
+		<entry index="12" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_005"/>
+				<entry key="position" type="vector3" value="4405 -892 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500009"/>
+			</entry>
+		</entry>
+		<entry index="13" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_005"/>
+				<entry key="position" type="vector3" value="4408 -890 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500012"/>
+			</entry>
+		</entry>
+		<entry index="14" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_006"/>
+				<entry key="position" type="vector3" value="4689 -1180 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 -2.68221e-07 -1"/>
+				<entry key="unit_id" type="number" value="500013"/>
+			</entry>
+		</entry>
+		<entry index="15" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_006"/>
+				<entry key="position" type="vector3" value="4687 -1177 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 -2.68221e-07 -1"/>
+				<entry key="unit_id" type="number" value="500014"/>
+			</entry>
+		</entry>
+		<entry index="16" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_007"/>
+				<entry key="position" type="vector3" value="4401 -1466 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500015"/>
+			</entry>
+		</entry>
+		<entry index="17" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_007"/>
+				<entry key="position" type="vector3" value="4398 -1468 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+				<entry key="unit_id" type="number" value="500016"/>
+			</entry>
+		</entry>
+		<entry index="18" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_008"/>
+				<entry key="position" type="vector3" value="4118 -1180 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500017"/>
+			</entry>
+		</entry>
+		<entry index="19" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_008"/>
+				<entry key="position" type="vector3" value="4120 -1183 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500018"/>
+			</entry>
+		</entry>
+		<entry index="20" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_009"/>
+				<entry key="position" type="vector3" value="-982 -68 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500019"/>
+			</entry>
+		</entry>
+		<entry index="21" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_009"/>
+				<entry key="position" type="vector3" value="-980 -71 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500020"/>
+			</entry>
+		</entry>
+		<entry index="22" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_010"/>
+				<entry key="position" type="vector3" value="-1268 -354 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500021"/>
+			</entry>
+		</entry>
+		<entry index="23" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_010"/>
+				<entry key="position" type="vector3" value="-1266 -357 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500022"/>
+			</entry>
+		</entry>
+		<entry index="24" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_011"/>
+				<entry key="position" type="vector3" value="-984 -641 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500023"/>
+			</entry>
+		</entry>
+		<entry index="25" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_011"/>
+				<entry key="position" type="vector3" value="-982 -644 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500024"/>
+			</entry>
+		</entry>
+		<entry index="26" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_012"/>
+				<entry key="position" type="vector3" value="-697 -354 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500025"/>
+			</entry>
+		</entry>
+		<entry index="27" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_012"/>
+				<entry key="position" type="vector3" value="-695 -357 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500026"/>
+			</entry>
+		</entry>
+		<entry index="28" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_013"/>
+				<entry key="position" type="vector3" value="-658.002 2401 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500027"/>
+			</entry>
+		</entry>
+		<entry index="29" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_013"/>
+				<entry key="position" type="vector3" value="-660.002 2404 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500028"/>
+			</entry>
+		</entry>
+		<entry index="30" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_014"/>
+				<entry key="position" type="vector3" value="-945 2688 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500029"/>
+			</entry>
+		</entry>
+		<entry index="31" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_014"/>
+				<entry key="position" type="vector3" value="-947 2691 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500030"/>
+			</entry>
+		</entry>
+		<entry index="32" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_015"/>
+				<entry key="position" type="vector3" value="-1230 2404 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500031"/>
+			</entry>
+		</entry>
+		<entry index="33" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_015"/>
+				<entry key="position" type="vector3" value="-1232 2407 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500032"/>
+			</entry>
+		</entry>
+		<entry index="34" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_016"/>
+				<entry key="position" type="vector3" value="-947 2118 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500033"/>
+			</entry>
+		</entry>
+		<entry index="35" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_016"/>
+				<entry key="position" type="vector3" value="-949 2121 1337"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500034"/>
+			</entry>
+		</entry>
+		<entry index="36" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_017"/>
+				<entry key="position" type="vector3" value="1241 3546 1361"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500035"/>
+			</entry>
+		</entry>
+		<entry index="37" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_017"/>
+				<entry key="position" type="vector3" value="1239 3549 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500036"/>
+			</entry>
+		</entry>
+		<entry index="38" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_018"/>
+				<entry key="position" type="vector3" value="1524 3259 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500037"/>
+			</entry>
+		</entry>
+		<entry index="39" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_018"/>
+				<entry key="position" type="vector3" value="1526 3256 1361"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500038"/>
+			</entry>
+		</entry>
+		<entry index="40" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_019"/>
+				<entry key="position" type="vector3" value="1237 2975 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500039"/>
+			</entry>
+		</entry>
+		<entry index="41" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_019"/>
+				<entry key="position" type="vector3" value="1239 2972 1361"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500040"/>
+			</entry>
+		</entry>
+		<entry index="42" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/gen_prop_glow/gen_prop_glow_01"/>
+				<entry key="name_id" type="string" value="gen_prop_glow_01_020"/>
+				<entry key="position" type="vector3" value="951 3263 1349"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500041"/>
+			</entry>
+		</entry>
+		<entry index="43" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="continent" type="string" value="night_only"/>
+				<entry key="name" type="string" value="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange"/>
+				<entry key="name_id" type="string" value="ind_prop_light_cones_docks_blue_small_020"/>
+				<entry key="position" type="vector3" value="953 3260 1361"/>
+				<entry key="rotation" type="quaternion" value="0 0 1 -4.17233e-07"/>
+				<entry key="unit_id" type="number" value="500042"/>
+			</entry>
+		</entry>
+	</entry>
+	<entry key="values" type="table">
+		<entry key="workviews" type="table">
+		</entry>
+	</entry>
+</generic_scriptdata>

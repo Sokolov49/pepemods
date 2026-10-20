@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<mod name="watchdogs_prebeta_continent">
+	<assets base_path="assets/">
+		<group name="levels/narratives/">
+			<file :name="h_watchdogs/stage_2/night_only/night_only.continent"/>
+		</group>
+	</assets>
+</mod>
