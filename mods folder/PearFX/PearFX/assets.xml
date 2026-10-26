@@ -13,7 +13,6 @@
 	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_df.texture" force="true"/>
 	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange_df.texture" force="true"/>
 	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange_v2_df.texture" force="true"/>
-	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_debris_df.texture" force="true"/>
 	
 	<!-- Blood -->
 	<file name="effects/payday2/particles/impacts/blood/blood_impact_a.effect"/>
