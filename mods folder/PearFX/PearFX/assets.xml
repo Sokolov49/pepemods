@@ -15,6 +15,7 @@
 	<file name="units/payday2/props/ind_prop_light_cones/ind_prop_light_cones_docks_orange_v2_df.texture" force="true"/>
 	
 	<!-- Blood -->
+	<file name="effects/particles/character/player/blood_screen.effect"/>
 	<file name="effects/payday2/particles/impacts/blood/blood_impact_a.effect"/>
 	<file name="effects/particles/bullet_hit/flesh/bullet_hit_blood.effect"/>
 	<file name="effects/particles/bullet_hit/flesh/bullet_impact_flesh_00.effect"/>
