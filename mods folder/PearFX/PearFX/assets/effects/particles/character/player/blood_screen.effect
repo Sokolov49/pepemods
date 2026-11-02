@@ -18,7 +18,7 @@
             </teleporter>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/particles/rain/raindrop_screen_df" intensity="desklight" billboard_type="screen_aligned" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_add" origo="0.5 0.5" per_particle_age="false" size_input="channel" color_input="constant" color="165 6 6" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="0.25 1" uv_offset_input="channel">
+            <billboard texture="effects/particles/character/player/blood_screen_df" intensity="desklight" billboard_type="screen_aligned" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_add" origo="0.5 0.5" per_particle_age="false" size_input="channel" color_input="constant" color="165 6 6" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="0.25 1" uv_offset_input="channel">
                 <opacity_keys loop="false">
                     <key t="0" v="255"/>
                     <key t="2.5" v="18"/>
